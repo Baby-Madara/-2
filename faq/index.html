@@ -123,24 +123,23 @@
       html * {
         cursor: none;
         /* The * ensures it applies to all elements within the html */
-      }
-
-      /* body selector removed as it was empty */
-      a,
-      button,
-      [role="button"] {
-        /* Link Cursor (Red 'm') */
-        /* cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="%23EF4136" stroke="white" stroke-width="2" opacity="0.9"/><text x="16" y="21" font-family="sans-serif" font-weight="bold" font-size="16" fill="white" text-anchor="middle">m</text></svg>') 16 16, pointer; */
-        cursor: none;
-      }
-    }
-
-    /* Ensure native scroll behavior */
     /* Ensure native scroll behavior */
     html,
     body {
       /* scroll-snap-type: y mandatory; */
       overscroll-behavior-y: auto;
+    }
+
+    /* Prevent image dragging and selection globally */
+    img {
+      -webkit-user-drag: none;
+      -khtml-user-drag: none;
+      -moz-user-drag: none;
+      -o-user-drag: none;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
     }
   </style>
   <script>
@@ -156,7 +155,6 @@
               blue: '#00AEEF', // Estimated from Logo
               red: '#EF4136',  // Estimated from Logo
               yellow: '#FFD037', // Estimated from Logo
-              green: '#8DC63F', // Estimated from Logo
               dark: '#1e293b',
             },
             meta: {
@@ -244,7 +242,7 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-C36rONyN.js"></script>
+  <script type="module" crossorigin src="/assets/index-CTI22yFk.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/react-vendor-H6qGgyZR.js">
   <link rel="modulepreload" crossorigin href="/assets/ui-vendor-CU1nUQv9.js">
   <link rel="modulepreload" crossorigin href="/assets/utils-vendor-Bvf3Zccm.js">
