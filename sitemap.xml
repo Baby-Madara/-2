@@ -7,16 +7,26 @@
   </url>
   <url>
     <loc>https://medestra.me/about</loc>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medestra.me/services</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/markets</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medestra.me/contact</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/faq</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -36,8 +46,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/faq</loc>
-    <priority>0.8</priority>
+    <loc>https://medestra.me/verify-certificate</loc>
+    <priority>0.5</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -46,8 +56,63 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medestra.me/checkout</loc>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/products</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medestra.me/blog</loc>
     <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/meta-ads-master</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/meta-ads-manager</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/pharmacy-sales</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/service/social-media</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/service/ecommerce</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/service/customer-service</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/service/content-marketing</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/service/web-mobile</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/service/training</loc>
+    <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
