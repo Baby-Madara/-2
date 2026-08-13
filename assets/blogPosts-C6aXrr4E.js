@@ -280,4 +280,76 @@ const e=[{id:"1",slug:"double-dental-clinic-revenue-meta-ads",title_ar:"كيف �
       
       <h2>3. Automate Replies During Peak Hours</h2>
       <p>If the line is always busy, patients get angry. Activate an Interactive Voice Response (IVR) message directing patients to book via WhatsApp or the website to relieve phone pressure.</p>
-    `,author_ar:"إدارة العمليات - ميديسترا",author_en:"Operations Dept - Medestra",date:"2026-06-15T15:00:00Z",readTime_ar:"5 دقائق قراءة",readTime_en:"5 Min Read",coverImage:"/photos/Managing Clinic Peak Hours Aligning Marketing with Operations.webp",category_ar:"إدارة العيادات",category_en:"Clinic Management",keywords:["إدارة العمليات","رضا المرضى","Clinic Operations","Peak Hours"]}];export{e as b};
+    `,author_ar:"إدارة العمليات - ميديسترا",author_en:"Operations Dept - Medestra",date:"2026-06-15T15:00:00Z",readTime_ar:"5 دقائق قراءة",readTime_en:"5 Min Read",coverImage:"/photos/Managing Clinic Peak Hours Aligning Marketing with Operations.webp",category_ar:"إدارة العيادات",category_en:"Clinic Management",keywords:["إدارة العمليات","رضا المرضى","Clinic Operations","Peak Hours"]},{id:"12",slug:"marketing-dietary-supplements-compliance",title_ar:"كيفية تسويق المكملات الغذائية على السوشيال ميديا بدون حظر حسابك الإعلاني",title_en:"How to Market Dietary Supplements on Social Media Without Getting Banned",excerpt_ar:"دليلك الشامل لسياسات ميتا وجوجل في تسويق الفيتامينات والمكملات الغذائية، وكيف تتجنب إغلاق حسابك الإعلاني.",excerpt_en:"Your comprehensive guide to Meta and Google policies on marketing vitamins and supplements, and how to avoid ad account bans.",content_ar:`
+      <h2>لماذا يتم حظر إعلانات المكملات الغذائية بكثرة؟</h2>
+      <p>منصات مثل فيسبوك وانستغرام لديها سياسات صارمة جداً عندما يتعلق الأمر بالمنتجات الصحية والمكملات الغذائية لحماية المستخدمين من الإدعاءات الطبية المضللة.</p>
+      
+      <h2>1. تجنب الإدعاءات الطبية المباشرة</h2>
+      <p>لا تقل "هذا المكمل يعالج السكري أو السمنة". بدلاً من ذلك، استخدم عبارات تدعم الصحة العامة مثل "يساعد في دعم نظام حرق الدهون" أو "يساهم في تعزيز المناعة".</p>
+      
+      <h2>2. ابتعد عن صور "قبل وبعد" المبالغ فيها</h2>
+      <p>خاصة في منتجات التخسيس أو بناء العضلات، صور قبل وبعد التي تركز بشكل مبالغ فيه على أجزاء معينة من الجسم تعتبر مخالفة صريحة لسياسات ميتا.</p>
+      
+      <h2>3. الحصول على التراخيص وعرضها</h2>
+      <p>إذا كان منتجك مصرحاً به من وزارة الصحة أو هيئة الغذاء والدواء، يجب أن يكون هذا التصريح واضحاً في صفحة الهبوط (Landing Page). الخوارزميات تبحث عن الموثوقية.</p>
+    `,content_en:`
+      <h2>Why Are Supplement Ads Frequently Banned?</h2>
+      <p>Platforms like Facebook and Instagram have very strict policies regarding health products and dietary supplements to protect users from misleading medical claims.</p>
+      
+      <h2>1. Avoid Direct Medical Claims</h2>
+      <p>Don't say "This supplement cures diabetes or obesity." Instead, use phrases that support general health like "Helps support the fat-burning system" or "Contributes to immune enhancement."</p>
+      
+      <h2>2. Steer Clear of Exaggerated "Before & After" Photos</h2>
+      <p>Especially for weight loss or muscle building products, before and after photos that overly focus on specific body parts are a clear violation of Meta's policies.</p>
+      
+      <h2>3. Obtain and Display Certifications</h2>
+      <p>If your product is approved by the Ministry of Health or FDA, this certification must be visible on the Landing Page. Algorithms look for trustworthiness.</p>
+    `,author_ar:"فريق الامتثال الإعلاني",author_en:"Ad Compliance Team",date:"2026-08-13T10:00:00Z",readTime_ar:"4 دقائق قراءة",readTime_en:"4 Min Read",coverImage:"/photos/marketing-dietary-supplements.webp",category_ar:"تسويق المكملات الغذائية",category_en:"Supplements Marketing",keywords:["المكملات الغذائية","حظر الإعلانات","سياسات ميتا","Dietary Supplements"]},{id:"13",slug:"ugc-influencers-for-supplements",title_ar:"قوة صناعة المحتوى بواسطة المستخدمين (UGC) في بيع الفيتامينات والمكملات",title_en:"The Power of User-Generated Content (UGC) in Selling Vitamins & Supplements",excerpt_ar:"لماذا يثق الناس في تجارب الآخرين أكثر من إعلانات الشركات؟ وكيف تستخدم محتوى UGC لمضاعفة مبيعات منتجاتك الصحية.",excerpt_en:"Why do people trust others' experiences more than corporate ads? How to use UGC to double your health product sales.",content_ar:`
+      <h2>السر وراء ثقة المستهلك</h2>
+      <p>في سوق مليء بالمنتجات، المشتري يبحث عن شخص يشبهه جرب المنتج واستفاد منه. إعلانات الشركات المصممة باحترافية تفقد مصداقيتها أمام فيديو بسيط من هاتف مستخدم حقيقي.</p>
+      
+      <h2>1. ما هو الـ UGC الطبي؟</h2>
+      <p>هو ببساطة أن يقوم شخص حقيقي (أو صانع محتوى يبدو كشخص عادي) بتصوير فيديو يتحدث فيه عن مشكلة كان يعاني منها (مثل تساقط الشعر) وكيف ساعده المكمل الغذائي الخاص بك في حلها.</p>
+      
+      <h2>2. هيكل فيديو UGC الناجح</h2>
+      <p>يبدأ بخطاف (Hook) يجذب الانتباه للمشكلة، ثم سرد القصة القصيرة، ثم تقديم المنتج كحل، وأخيراً دعوة لاتخاذ إجراء (شراء من الرابط مع كود خصم).</p>
+      
+      <h2>3. التعاون مع الأطباء والصيادلة كمؤثرين</h2>
+      <p>بالإضافة للمستخدمين العاديين، التعاون مع أطباء أو صيادلة لتقديم مراجعة علمية مبسطة للمكمل الغذائي الخاص بك يرفع من نسبة التحويل بشكل جنوني لأنه يجمع بين الـ UGC والموثوقية الطبية (Authority).</p>
+    `,content_en:`
+      <h2>The Secret Behind Consumer Trust</h2>
+      <p>In a saturated market, buyers look for someone like them who tried the product and benefited. Professionally designed corporate ads lose credibility to a simple smartphone video from a real user.</p>
+      
+      <h2>1. What is Medical UGC?</h2>
+      <p>It's simply a real person (or a creator acting like an everyday person) recording a video talking about a problem they had (like hair loss) and how your supplement helped solve it.</p>
+      
+      <h2>2. Structure of a Successful UGC Video</h2>
+      <p>It starts with a Hook grabbing attention to the problem, followed by a short story, introducing the product as the solution, and finally a Call to Action (buy from link with promo code).</p>
+      
+      <h2>3. Collaborating with Doctors & Pharmacists</h2>
+      <p>Besides regular users, partnering with doctors or pharmacists to provide a simplified scientific review of your supplement skyrockets conversion rates because it combines UGC with Medical Authority.</p>
+    `,author_ar:"خبراء الـ UGC الطبية",author_en:"Medical UGC Experts",date:"2026-08-13T12:30:00Z",readTime_ar:"5 دقائق قراءة",readTime_en:"5 Min Read",coverImage:"/photos/ugc-for-supplements.webp",category_ar:"تسويق المكملات الغذائية",category_en:"Supplements Marketing",keywords:["UGC","تسويق المؤثرين","المكملات الغذائية","Vitamins"]},{id:"14",slug:"seo-for-supplement-ecommerce",title_ar:"السيو لمتاجر المكملات الغذائية: كيف تتصدر نتائج جوجل بكلمات بيعية",title_en:"SEO for Supplement E-commerce: Ranking on Google for Buying Keywords",excerpt_ar:"استراتيجية كتابة وصف المنتجات وبناء المدونات لمتاجر الفيتامينات والمكملات لكسب ثقة محرك بحث جوجل والعملاء.",excerpt_en:"Product description and blogging strategies for vitamin stores to win Google's trust and customers' wallets.",content_ar:`
+      <h2>سوق المكملات الغذائية وجوجل (YMYL)</h2>
+      <p>متاجر المكملات تقع تحت تصنيف Your Money or Your Life في جوجل، مما يعني أن جوجل سيحاسبك بشدة على دقة المعلومات المكتوبة لأنها تؤثر على صحة الناس.</p>
+      
+      <h2>1. وصف المنتج كطبيب وليس كبائع</h2>
+      <p>لا تكتفِ بنسخ وصف المنتج من الشركة المصنعة. اكتب وصفاً فريداً يتضمن الفوائد، الجرعة الموصى بها، التحذيرات الطبية (من لا يجب عليه استخدامه)، وتفاعلات الأدوية إن وجدت.</p>
+      
+      <h2>2. استهداف كلمات النية الشرائية الطويلة (Long-Tail)</h2>
+      <p>بدلاً من استهداف كلمة "فيتامين د"، استهدف "أفضل حبوب فيتامين د3 5000 وحدة دولية في السعودية" أو "أوميجا 3 خالي من طعم السمك". هذه الكلمات تجلب مشترياً جاهزاً للدفع.</p>
+      
+      <h2>3. بناء مدونة طبية مساندة</h2>
+      <p>قم بكتابة مقالات تعليمية مثل "أعراض نقص المغنيسيوم" وضع داخل المقال روابط لمنتجات المغنيسيوم في متجرك. وتأكد من ذكر المصادر الطبية الموثوقة في نهاية المقال لتعزيز موثوقية موقعك.</p>
+    `,content_en:`
+      <h2>The Supplement Market and Google (YMYL)</h2>
+      <p>Supplement stores fall under Google's "Your Money or Your Life" category, meaning Google will strictly hold you accountable for the accuracy of information since it affects people's health.</p>
+      
+      <h2>1. Product Descriptions by a Doctor, Not a Salesman</h2>
+      <p>Don't just copy the manufacturer's description. Write unique content including benefits, recommended dosage, medical warnings (who shouldn't use it), and drug interactions if any.</p>
+      
+      <h2>2. Targeting Long-Tail Commercial Keywords</h2>
+      <p>Instead of targeting "Vitamin D", target "Best Vitamin D3 5000 IU pills in Saudi Arabia" or "Burpless Omega 3 fish oil". These bring buyers ready to pay.</p>
+      
+      <h2>3. Building a Supporting Medical Blog</h2>
+      <p>Write educational articles like "Symptoms of Magnesium Deficiency" and link to your magnesium products within the article. Ensure you cite reliable medical sources at the end to boost site authority.</p>
+    `,author_ar:"فريق التجارة الإلكترونية",author_en:"E-commerce Team",date:"2026-08-13T15:00:00Z",readTime_ar:"6 دقائق قراءة",readTime_en:"6 Min Read",coverImage:"/photos/seo-supplement-ecommerce.webp",category_ar:"التجارة الإلكترونية الطبية",category_en:"Medical E-commerce",keywords:["SEO","تجارة إلكترونية","المكملات الغذائية","E-E-A-T"]}];export{e as b};
