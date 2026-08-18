@@ -1,4 +1,40 @@
-const e=[{id:"1",slug:"double-dental-clinic-revenue-meta-ads",title_ar:"كيف تضاعف أرباح عيادة الأسنان باستخدام إعلانات ميتا (دليل 2026)",title_en:"How to Double Your Dental Clinic Revenue Using Meta Ads (2026 Guide)",excerpt_ar:"دليلك الشامل لتحويل عيادة الأسنان الخاصة بك إلى آلة لاستقطاب المرضى باستخدام أحدث استراتيجيات إعلانات فيسبوك وإنستغرام.",excerpt_en:"Your comprehensive guide to turning your dental clinic into a patient acquisition machine using the latest Facebook and Instagram ad strategies.",content_ar:`
+const e=[{id:"pharmacy-marketing-2026",slug:"pharmacy-marketing-strategies-2026",title_ar:"أهم استراتيجيات تسويق الصيدليات في 2026: كيف تتميز في سوق تنافسي",title_en:"Top Pharmacy Marketing Strategies in 2026: How to Stand Out in a Competitive Market",excerpt_ar:"اكتشف كيف يمكنك زيادة مبيعات صيدليتك وبناء ولاء العملاء باستخدام أحدث أدوات التسويق الرقمي وإدارة علاقات العملاء.",excerpt_en:"Discover how you can increase your pharmacy's sales and build customer loyalty using the latest digital marketing and CRM tools.",content_ar:`
+      <h2>مقدمة</h2>
+      <p>لم يعد دور الصيدلية يقتصر على صرف الأدوية فقط، بل أصبح مركزاً لتقديم الرعاية والاستشارات الصحية. في ظل المنافسة الشديدة، أصبح التسويق الرقمي وبناء علاقات قوية مع المرضى ضرورة لا غنى عنها.</p>
+      
+      <h2>1. التواجد الرقمي الفعال (Local SEO)</h2>
+      <p>أغلب المرضى يبحثون عن "أقرب صيدلية" عبر جوجل. تأكد من أن صيدليتك مسجلة في <strong>Google My Business</strong> بمعلومات محدثة، ساعات عمل دقيقة، وصور واضحة للمكان.</p>
+      
+      <h2>2. برامج الولاء وإدارة علاقات العملاء (CRM)</h2>
+      <p>احتفظ ببيانات عملائك الأساسية وتاريخهم المرضي (بموافقتهم) لتذكيرهم بمواعيد صرف الأدوية الشهرية، أو تقديم عروض خاصة على منتجات التجميل والعناية الشخصية التي يفضلونها.</p>
+      
+      <h2>3. التسويق عبر وسائل التواصل الاجتماعي</h2>
+      <p>استخدم منصات مثل فيسبوك وإنستغرام لنشر محتوى توعوي حول الصحة العامة، الفيتامينات، وطرق الوقاية من الأمراض الموسمية. هذا يبني ثقة كبيرة بينك وبين مجتمعك.</p>
+      
+      <h2>4. خدمات القيمة المضافة والتوصيل</h2>
+      <p>في عصر السرعة، توفير خدمة توصيل سريعة وموثوقة، بالإضافة إلى خدمات قياس الضغط والسكر، يعتبر ميزة تنافسية ضخمة تجعل المريض يفضل صيدليتك على غيرها.</p>
+      
+      <h2>الخلاصة</h2>
+      <p>التسويق للصيدليات يتطلب مزيجاً من التكنولوجيا، المحتوى المفيد، واللمسة الإنسانية. في <strong>ميديسترا</strong>، نقدم استراتيجيات متكاملة للارتقاء بمبيعات صيدليتك وبناء قاعدة عملاء أوفياء.</p>
+    `,content_en:`
+      <h2>Introduction</h2>
+      <p>The role of a pharmacy is no longer limited to just dispensing medications; it has become a center for healthcare and consultations. Amidst fierce competition, digital marketing and building strong patient relationships are indispensable.</p>
+      
+      <h2>1. Effective Digital Presence (Local SEO)</h2>
+      <p>Most patients search for the "nearest pharmacy" on Google. Ensure your pharmacy is listed on <strong>Google My Business</strong> with updated information, accurate working hours, and clear photos.</p>
+      
+      <h2>2. Loyalty Programs and CRM</h2>
+      <p>Keep track of your customers' basic data and medical history (with their consent) to remind them of monthly prescription refills, or to offer special discounts on their favorite personal care products.</p>
+      
+      <h2>3. Social Media Marketing</h2>
+      <p>Use platforms like Facebook and Instagram to post educational content about public health, vitamins, and seasonal disease prevention. This builds immense trust within your community.</p>
+      
+      <h2>4. Value-Added Services and Delivery</h2>
+      <p>In our fast-paced world, offering quick and reliable delivery, along with services like blood pressure and glucose monitoring, is a massive competitive advantage.</p>
+      
+      <h2>Conclusion</h2>
+      <p>Pharmacy marketing requires a mix of technology, valuable content, and a human touch. At <strong>Medestra</strong>, we offer comprehensive strategies to elevate your pharmacy's sales and build a loyal customer base.</p>
+    `,author_ar:"فريق ميديسترا",author_en:"Medestra Team",date:"2026-08-19",readTime_ar:"4 دقائق",readTime_en:"4 min read",coverImage:"/photos/صيدلية.webp",category_ar:"تسويق الصيدليات",category_en:"Pharmacy Marketing",keywords:["تسويق صيدليات","مبيعات الصيدلية","Pharmacy Marketing","CRM","التسويق الطبي"]},{id:"1",slug:"double-dental-clinic-revenue-meta-ads",title_ar:"كيف تضاعف أرباح عيادة الأسنان باستخدام إعلانات ميتا (دليل 2026)",title_en:"How to Double Your Dental Clinic Revenue Using Meta Ads (2026 Guide)",excerpt_ar:"دليلك الشامل لتحويل عيادة الأسنان الخاصة بك إلى آلة لاستقطاب المرضى باستخدام أحدث استراتيجيات إعلانات فيسبوك وإنستغرام.",excerpt_en:"Your comprehensive guide to turning your dental clinic into a patient acquisition machine using the latest Facebook and Instagram ad strategies.",content_ar:`
       <h2>مقدمة</h2>
       <p>في عالم مليء بعيادات الأسنان، لم يعد التميز يعتمد فقط على مهارة الطبيب، بل على مدى قدرته على الوصول إلى المريض الصحيح في الوقت المناسب. إعلانات ميتا (فيسبوك وإنستغرام) تعتبر الأداة الأقوى لذلك.</p>
       
