@@ -116,6 +116,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medestra.me/blog/pharmacy-marketing-strategies-2026</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medestra.me/blog/double-dental-clinic-revenue-meta-ads</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
@@ -167,6 +172,21 @@
   </url>
   <url>
     <loc>https://medestra.me/blog/managing-clinic-peak-hours</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/blog/marketing-dietary-supplements-compliance</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/blog/ugc-influencers-for-supplements</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medestra.me/blog/seo-for-supplement-ecommerce</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
