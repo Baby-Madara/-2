@@ -67,29 +67,33 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Organization",
-        "name": "Medestra",
+        "@type": "MedicalBusiness",
+        "@id": "https://medestra.me/#organization",
+        "name": "ميديسترا | Medestra",
         "url": "https://medestra.me/",
-        "logo": "https://medestra.me/mesestra.webp",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://medestra.me/mesestra.webp"
+        },
+        "description": "أفضل شركة تسويق طبي رقمي متخصصة في الشرق الأوسط. يقودها أطباء لضمان أعلى مستوى من الحجوزات للمستشفيات والعيادات.",
         "sameAs": [
           "https://www.facebook.com/medestra.me",
           "https://instagram.com/medestra.me",
-          "https://www.linkedin.com/company/marketingmedestra",
-          "https://www.youtube.com/@Medestra"
+          "https://www.linkedin.com/company/marketingmedestra"
         ],
-        "contactPoint": [
-          {
-            "@type": "ContactPoint",
-            "contactType": "customer service",
-            "telephone": "+201118080265",
-            "availableLanguage": ["Arabic","English"]
-          }
-        ]
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "telephone": "+201130428384",
+          "availableLanguage": ["Arabic", "English"]
+        }
       },
       {
         "@type": "WebSite",
+        "@id": "https://medestra.me/#website",
         "url": "https://medestra.me/",
-        "name": "Medestra",
+        "name": "Medestra Medical Marketing",
+        "publisher": { "@id": "https://medestra.me/#organization" },
         "potentialAction": {
           "@type": "SearchAction",
           "target": "https://medestra.me/?s={search_term_string}",
