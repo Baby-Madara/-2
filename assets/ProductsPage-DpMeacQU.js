@@ -1,7 +1,7 @@
 import { j as jsxRuntimeExports, m as motion, aF as Store, aG as Building2, aH as Warehouse, aA as Truck, aI as Stethoscope, aJ as Cross, aK as MonitorSmartphone, a as ShoppingCart, aL as ChartColumn, U as Users, aM as Calculator, as as LayoutDashboard, az as Clock, aN as ScanBarcode, av as ShieldCheck, C as CircleCheck, aO as UserCheck, l as Settings, aP as Link } from "./ui-vendor-a5hQU3E-.js";
-import { N as Navbar } from "./Navbar-l9FmEztP.js";
-import { F as Footer } from "./Footer-CHnj0LAL.js";
-import { u as useLanguage } from "./index-chrhP_TK.js";
+import { N as Navbar } from "./Navbar-DAC1ZDq0.js";
+import { F as Footer } from "./Footer-BqkZY3eo.js";
+import { u as useLanguage } from "./index-4qG1EIbH.js";
 import "./react-vendor-DY0Dzq76.js";
 import "./utils-vendor-Bpu5wKGe.js";
 const fadeUpVariant = {

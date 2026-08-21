@@ -1,8 +1,8 @@
 import { j as jsxRuntimeExports, m as motion, av as ShieldCheck, K as Search, A as AnimatePresence, a4 as CircleCheckBig, ac as CircleX } from "./ui-vendor-a5hQU3E-.js";
 import { r as reactExports } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage } from "./index-chrhP_TK.js";
-import { N as Navbar } from "./Navbar-l9FmEztP.js";
-import { F as Footer } from "./Footer-CHnj0LAL.js";
+import { u as useLanguage } from "./index-4qG1EIbH.js";
+import { N as Navbar } from "./Navbar-DAC1ZDq0.js";
+import { F as Footer } from "./Footer-BqkZY3eo.js";
 import "./utils-vendor-Bpu5wKGe.js";
 const CertificateVerification = () => {
   const { t, language, dir } = useLanguage();

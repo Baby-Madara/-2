@@ -1,9 +1,9 @@
 import { j as jsxRuntimeExports, d as ArrowRight, c as ArrowLeft, ak as User, a9 as Calendar, az as Clock, S as Share2 } from "./ui-vendor-a5hQU3E-.js";
 import { i as useParams, r as reactExports, L as Link } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage, H as Helmet } from "./index-chrhP_TK.js";
-import { N as Navbar } from "./Navbar-l9FmEztP.js";
-import { F as Footer } from "./Footer-CHnj0LAL.js";
-import { b as blogPosts } from "./blogPosts-D_lsSOW-.js";
+import { u as useLanguage, H as Helmet } from "./index-4qG1EIbH.js";
+import { N as Navbar } from "./Navbar-DAC1ZDq0.js";
+import { F as Footer } from "./Footer-BqkZY3eo.js";
+import { b as blogPosts } from "./blogPosts-N-5cpjTR.js";
 import "./utils-vendor-Bpu5wKGe.js";
 const BlogPostPage = () => {
   const { slug } = useParams();
@@ -89,7 +89,7 @@ const BlogPostPage = () => {
         /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl md:text-5xl font-extrabold mb-6 leading-normal", children: title }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap items-center justify-center gap-6 text-sm text-slate-500", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-9 h-9 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(User, { className: "w-4 h-4 text-brand-blue" }) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-9 h-9 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0 overflow-hidden", children: post.authorImage ? /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: post.authorImage, alt: author, className: "w-full h-full object-cover" }) : /* @__PURE__ */ jsxRuntimeExports.jsx(User, { className: "w-4 h-4 text-brand-blue" }) }),
             /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col items-start", children: [
               post.authorLink ? /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: post.authorLink, target: "_blank", rel: "noopener noreferrer", className: "font-bold text-brand-blue hover:text-blue-700 hover:underline leading-tight", children: author }) : /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-slate-800 leading-tight", children: author }),
               (post.authorRole_ar || post.authorRole_en) && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs text-slate-400 leading-tight mt-0.5", children: isAr ? post.authorRole_ar : post.authorRole_en })

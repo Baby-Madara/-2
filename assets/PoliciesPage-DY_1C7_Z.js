@@ -1,8 +1,8 @@
 import { j as jsxRuntimeExports, a8 as FileText, au as ChevronUp, s as ChevronDown, aA as Truck, a6 as RotateCcw, aB as Shield } from "./ui-vendor-a5hQU3E-.js";
 import { r as reactExports } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage } from "./index-chrhP_TK.js";
-import { N as Navbar } from "./Navbar-l9FmEztP.js";
-import { F as Footer } from "./Footer-CHnj0LAL.js";
+import { u as useLanguage } from "./index-4qG1EIbH.js";
+import { N as Navbar } from "./Navbar-DAC1ZDq0.js";
+import { F as Footer } from "./Footer-BqkZY3eo.js";
 import { W as WhatsAppButton } from "./WhatsAppButton-BjgNavvJ.js";
 import "./utils-vendor-Bpu5wKGe.js";
 const POLICY_COLORS = {
