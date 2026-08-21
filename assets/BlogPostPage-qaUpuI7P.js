@@ -1,9 +1,9 @@
 import { j as jsxRuntimeExports, d as ArrowRight, c as ArrowLeft, ak as User, a9 as Calendar, az as Clock, S as Share2 } from "./ui-vendor-a5hQU3E-.js";
 import { i as useParams, r as reactExports, L as Link } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage, H as Helmet } from "./index-4qG1EIbH.js";
-import { N as Navbar } from "./Navbar-DAC1ZDq0.js";
-import { F as Footer } from "./Footer-BqkZY3eo.js";
-import { b as blogPosts } from "./blogPosts-N-5cpjTR.js";
+import { u as useLanguage, H as Helmet } from "./index-ViklniuA.js";
+import { N as Navbar } from "./Navbar-BJ91ogvA.js";
+import { F as Footer } from "./Footer-BtiNoqIK.js";
+import { b as blogPosts } from "./blogPosts-DiDbaXt5.js";
 import "./utils-vendor-Bpu5wKGe.js";
 const BlogPostPage = () => {
   const { slug } = useParams();

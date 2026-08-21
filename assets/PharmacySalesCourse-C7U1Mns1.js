@@ -1,8 +1,8 @@
 import { U as Users, aw as HeartHandshake, ax as ChartNoAxesColumnIncreasing, ay as TrendingUp, av as ShieldCheck, a4 as CircleCheckBig, j as jsxRuntimeExports, m as motion, ab as Download, ag as Award, x as ChevronRight, ap as BookOpen, az as Clock, Z as Zap, X, am as Lock, al as Menu, c as ArrowLeft, a0 as Play, at as Star, A as AnimatePresence, s as ChevronDown } from "./ui-vendor-a5hQU3E-.js";
 import { r as reactExports } from "./react-vendor-DY0Dzq76.js";
 import { h as html2canvas, E } from "./utils-vendor-Bpu5wKGe.js";
-import { N as Navbar } from "./Navbar-DAC1ZDq0.js";
-import { H as Helmet } from "./index-4qG1EIbH.js";
+import { N as Navbar } from "./Navbar-BJ91ogvA.js";
+import { H as Helmet } from "./index-ViklniuA.js";
 import { a as notifyHackData } from "./telegramService-DHvoeSJj.js";
 const COURSE_CONTENT = [
   {

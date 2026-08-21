@@ -1,9 +1,9 @@
 import { j as jsxRuntimeExports, a4 as CircleCheckBig, ac as CircleX, n as CircleQuestionMark, _ as Check, ad as GripVertical, ae as ArrowDown, af as MousePointerClick, ag as Award, g as Send, ah as Code, x as ChevronRight, ai as ChevronLeft, l as Settings, G as Globe, aj as Loader, ab as Download, X, ak as User, D as Sparkles, al as Menu, d as ArrowRight, am as Lock, an as Trophy, ao as Languages, ap as BookOpen, aq as CirclePlay, m as motion, ar as Rocket, as as LayoutDashboard } from "./ui-vendor-a5hQU3E-.js";
 import { r as reactExports, d as React, L as Link } from "./react-vendor-DY0Dzq76.js";
 import { R as ResponsiveContainer, L as LineChart, C as CartesianGrid, X as XAxis, Y as YAxis, T as Tooltip, a as Line, b as ReferenceDot, h as html2canvas, E } from "./utils-vendor-Bpu5wKGe.js";
-import { u as useLanguage, H as Helmet } from "./index-4qG1EIbH.js";
-import { F as Footer } from "./Footer-BqkZY3eo.js";
-import { N as Navbar } from "./Navbar-DAC1ZDq0.js";
+import { u as useLanguage, H as Helmet } from "./index-ViklniuA.js";
+import { F as Footer } from "./Footer-BtiNoqIK.js";
+import { N as Navbar } from "./Navbar-BJ91ogvA.js";
 var InteractionType = /* @__PURE__ */ ((InteractionType2) => {
   InteractionType2["QUIZ"] = "QUIZ";
   InteractionType2["DRAG_DROP"] = "DRAG_DROP";
