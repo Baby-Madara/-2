@@ -1,7 +1,7 @@
 import { j as jsxRuntimeExports, h as House, B as Briefcase, i as ChartNoAxesColumn, k as Grid3x3, l as Settings, n as CircleQuestionMark, L as LogOut, o as CirclePlus, p as ArrowUpDown, q as Pen, r as Copy, T as Trash2, s as ChevronDown, X, I as Info, t as Compass, F as Folder, v as LayoutGrid, w as Image, x as ChevronRight$1, y as PenLine, E as Eye, z as Ellipsis, D as Sparkles, J as Plus, K as Search, U as Users, b as Smartphone, N as Monitor, Z as Zap, O as Megaphone, Q as MousePointer, R as MessageCircle, V as Funnel, W as ShoppingBag, Y as CircleAlert, _ as Check, $ as ExternalLink, G as Globe, a0 as Play, a1 as ThumbsUp, S as Share2, a2 as Heart, g as Send, a3 as Bookmark, a4 as CircleCheckBig, a5 as RefreshCw, a6 as RotateCcw, a7 as FolderOpen, a8 as FileText, a9 as Calendar, aa as PanelsTopLeft, ab as Download } from "./ui-vendor-a5hQU3E-.js";
 import { h as useNavigate, r as reactExports, d as React } from "./react-vendor-DY0Dzq76.js";
-import { N as Navbar } from "./Navbar-BJ91ogvA.js";
-import "./index-ViklniuA.js";
+import { N as Navbar } from "./Navbar-BjqIu5YJ.js";
+import "./index-DQ3_D6t3.js";
 import "./utils-vendor-Bpu5wKGe.js";
 const Sidebar = ({ activeTool, setActiveTool }) => {
   const navigate = useNavigate();
