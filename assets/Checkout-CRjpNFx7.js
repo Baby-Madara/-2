@@ -1,8 +1,8 @@
 import { ak as User, aC as Wallet, W as ShoppingBag, j as jsxRuntimeExports, m as motion, am as Lock, a4 as CircleCheckBig, A as AnimatePresence, e as Phone, M as Mail, f as MapPin, b as Smartphone, aA as Truck, Y as CircleAlert, D as Sparkles, av as ShieldCheck, aD as CreditCard, c as ArrowLeft, ai as ChevronLeft, x as ChevronRight, aE as Package, aB as Shield } from "./ui-vendor-a5hQU3E-.js";
 import { u as useLocation, h as useNavigate, r as reactExports, L as Link } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage } from "./index-BfaDYxno.js";
-import { N as Navbar } from "./Navbar-CFh3icge.js";
-import { F as Footer } from "./Footer-UP7eatOg.js";
+import { u as useLanguage } from "./index-BsJAkK_0.js";
+import { N as Navbar } from "./Navbar-Bz7sth89.js";
+import { F as Footer } from "./Footer-DwA_0Znq.js";
 import { b as notifyPurchaseOrder } from "./telegramService-DHvoeSJj.js";
 import "./utils-vendor-Bpu5wKGe.js";
 function Checkout() {

@@ -1,5 +1,5 @@
 import { j as jsxRuntimeExports, M as Mail, e as Phone, f as MapPin, aQ as Linkedin, aR as Instagram, aS as Facebook, aT as Youtube } from "./ui-vendor-a5hQU3E-.js";
-import { u as useLanguage } from "./index-BfaDYxno.js";
+import { u as useLanguage } from "./index-BsJAkK_0.js";
 import { h as useNavigate, u as useLocation } from "./react-vendor-DY0Dzq76.js";
 const Footer = () => {
   const { t, dir, language } = useLanguage();

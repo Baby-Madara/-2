@@ -1,17 +1,17 @@
 import { j as jsxRuntimeExports, m as motion, A as AnimatePresence, c as ArrowLeft, d as ArrowRight, u as useInView, G as Globe, C as CircleCheck, e as Phone, M as Mail, f as MapPin, g as Send } from "./ui-vendor-a5hQU3E-.js";
 import { r as reactExports, L as Link, g as getDefaultExportFromCjs, d as React, b as reactDomExports, u as useLocation } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage, H as Helmet } from "./index-BfaDYxno.js";
-import { N as Navbar } from "./Navbar-CFh3icge.js";
+import { u as useLanguage, H as Helmet } from "./index-BsJAkK_0.js";
+import { N as Navbar } from "./Navbar-Bz7sth89.js";
 import { g as getAllServices } from "./services-BBmPw5w8.js";
 import { c as clsx } from "./utils-vendor-Bpu5wKGe.js";
 import { n as notifyContactMessage } from "./telegramService-DHvoeSJj.js";
-import { F as Footer } from "./Footer-UP7eatOg.js";
+import { F as Footer } from "./Footer-DwA_0Znq.js";
 import { W as WhatsAppButton } from "./WhatsAppButton-BjgNavvJ.js";
 const imagePaths = [
-  "./mascots/h1.webp",
-  "./mascots/h2.webp",
-  "./mascots/h3.webp",
-  "./mascots/h4.webp"
+  "/mascots/h1.webp",
+  "/mascots/h2.webp",
+  "/mascots/h3.webp",
+  "/mascots/h4.webp"
 ];
 const greetings = [
   "مرحباً",
@@ -389,7 +389,7 @@ const ServiceCard = ({ service, index: index2, language, getLocalized, t }) => {
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 flex items-center justify-center opacity-[0.08] group-hover:opacity-[0.12] transition-opacity duration-700 pointer-events-none p-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
             "img",
             {
-              src: "./mesestra.webp",
+              src: "/mesestra.webp",
               alt: "",
               className: "w-full h-full object-contain filter grayscale group-hover:scale-110 transition-transform duration-[1.5s] ease-out"
             }

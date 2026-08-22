@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/LandingPage-BsStKSuL.js","assets/ui-vendor-a5hQU3E-.js","assets/react-vendor-DY0Dzq76.js","assets/Navbar-CFh3icge.js","assets/services-BBmPw5w8.js","assets/utils-vendor-Bpu5wKGe.js","assets/telegramService-DHvoeSJj.js","assets/Footer-UP7eatOg.js","assets/WhatsAppButton-BjgNavvJ.js","assets/LandingPage-IG-ZI2rG.css","assets/MetaAdsManagerPage-BAI2GDSx.js","assets/MetaAdsPage-DzLsseiF.js","assets/ServiceLanding-D1nLjGOr.js","assets/FAQPage-DV2OTxKD.js","assets/AcademyLanding-DDfwCxoV.js","assets/CertificateVerification-zFnn7Rbf.js","assets/PharmacySalesCourse-BYK9lB_S.js","assets/PoliciesPage-D300C8wM.js","assets/Checkout-CxeLgLlA.js","assets/ProductsPage-D54w3X68.js","assets/BlogLandingPage-TW63YeE0.js","assets/blogPosts-DVQYouWB.js","assets/BlogPostPage-CVuprjj_.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/LandingPage-BWx_-MVA.js","assets/ui-vendor-a5hQU3E-.js","assets/react-vendor-DY0Dzq76.js","assets/Navbar-Bz7sth89.js","assets/services-BBmPw5w8.js","assets/utils-vendor-Bpu5wKGe.js","assets/telegramService-DHvoeSJj.js","assets/Footer-DwA_0Znq.js","assets/WhatsAppButton-BjgNavvJ.js","assets/LandingPage-IG-ZI2rG.css","assets/MetaAdsManagerPage-BpwOD6sx.js","assets/MetaAdsPage-BlHcTXWx.js","assets/ServiceLanding-D_cUAJ_f.js","assets/FAQPage-CBYgShp_.js","assets/AcademyLanding-DwkRdD5z.js","assets/CertificateVerification-BNk3oX2y.js","assets/PharmacySalesCourse-slzXQy4x.js","assets/PoliciesPage-DhhyWCDG.js","assets/Checkout-CRjpNFx7.js","assets/ProductsPage-D18tkbXp.js","assets/BlogLandingPage-BzFudIUi.js","assets/blogPosts-DVQYouWB.js","assets/BlogPostPage-Bv3HxOAd.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __publicField = (obj, key, value) => __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
@@ -14274,7 +14274,7 @@ const GlobalBackground = () => {
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 flex items-center justify-center opacity-[0.4] select-none pointer-events-none", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
       "img",
       {
-        src: "./mesestra.webp",
+        src: "/mesestra.webp",
         alt: "",
         className: "w-[100%] max-w-6xl object-contain filter blur-[50px] scale-110",
         style: { willChange: "filter" },
@@ -14401,19 +14401,19 @@ const SplashScreen = () => {
     }
   );
 };
-const LandingPage = reactExports.lazy(() => __vitePreload(() => import("./LandingPage-BsStKSuL.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6,7,8,9]) : void 0));
-const MetaAdsManagerPage = reactExports.lazy(() => __vitePreload(() => import("./MetaAdsManagerPage-BAI2GDSx.js"), true ? __vite__mapDeps([10,1,2,3,5]) : void 0));
-const MetaAdsPage = reactExports.lazy(() => __vitePreload(() => import("./MetaAdsPage-DzLsseiF.js"), true ? __vite__mapDeps([11,1,2,5,7,3]) : void 0));
-const ServiceLanding = reactExports.lazy(() => __vitePreload(() => import("./ServiceLanding-D1nLjGOr.js"), true ? __vite__mapDeps([12,1,2,4,7,3,5]) : void 0));
-const FAQPage = reactExports.lazy(() => __vitePreload(() => import("./FAQPage-DV2OTxKD.js"), true ? __vite__mapDeps([13,1,2,7,3,5]) : void 0));
-const AcademyLanding = reactExports.lazy(() => __vitePreload(() => import("./AcademyLanding-DDfwCxoV.js"), true ? __vite__mapDeps([14,1,2,3,7,5]) : void 0));
-const CertificateVerification = reactExports.lazy(() => __vitePreload(() => import("./CertificateVerification-zFnn7Rbf.js"), true ? __vite__mapDeps([15,1,2,3,7,5]) : void 0));
-const PharmacySalesCourse = reactExports.lazy(() => __vitePreload(() => import("./PharmacySalesCourse-BYK9lB_S.js"), true ? __vite__mapDeps([16,1,2,5,3,6]) : void 0));
-const PoliciesPage = reactExports.lazy(() => __vitePreload(() => import("./PoliciesPage-D300C8wM.js"), true ? __vite__mapDeps([17,1,2,3,7,8,5]) : void 0));
-const CheckoutPage = reactExports.lazy(() => __vitePreload(() => import("./Checkout-CxeLgLlA.js"), true ? __vite__mapDeps([18,1,2,3,7,6,5]) : void 0));
-const ProductsPage = reactExports.lazy(() => __vitePreload(() => import("./ProductsPage-D54w3X68.js"), true ? __vite__mapDeps([19,1,2,3,7,5]) : void 0));
-const BlogLandingPage = reactExports.lazy(() => __vitePreload(() => import("./BlogLandingPage-TW63YeE0.js"), true ? __vite__mapDeps([20,1,2,3,7,21,5]) : void 0));
-const BlogPostPage = reactExports.lazy(() => __vitePreload(() => import("./BlogPostPage-CVuprjj_.js"), true ? __vite__mapDeps([22,1,2,3,7,21,5]) : void 0));
+const LandingPage = reactExports.lazy(() => __vitePreload(() => import("./LandingPage-BWx_-MVA.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6,7,8,9]) : void 0));
+const MetaAdsManagerPage = reactExports.lazy(() => __vitePreload(() => import("./MetaAdsManagerPage-BpwOD6sx.js"), true ? __vite__mapDeps([10,1,2,3,5]) : void 0));
+const MetaAdsPage = reactExports.lazy(() => __vitePreload(() => import("./MetaAdsPage-BlHcTXWx.js"), true ? __vite__mapDeps([11,1,2,5,7,3]) : void 0));
+const ServiceLanding = reactExports.lazy(() => __vitePreload(() => import("./ServiceLanding-D_cUAJ_f.js"), true ? __vite__mapDeps([12,1,2,4,7,3,5]) : void 0));
+const FAQPage = reactExports.lazy(() => __vitePreload(() => import("./FAQPage-CBYgShp_.js"), true ? __vite__mapDeps([13,1,2,7,3,5]) : void 0));
+const AcademyLanding = reactExports.lazy(() => __vitePreload(() => import("./AcademyLanding-DwkRdD5z.js"), true ? __vite__mapDeps([14,1,2,3,7,5]) : void 0));
+const CertificateVerification = reactExports.lazy(() => __vitePreload(() => import("./CertificateVerification-BNk3oX2y.js"), true ? __vite__mapDeps([15,1,2,3,7,5]) : void 0));
+const PharmacySalesCourse = reactExports.lazy(() => __vitePreload(() => import("./PharmacySalesCourse-slzXQy4x.js"), true ? __vite__mapDeps([16,1,2,5,3,6]) : void 0));
+const PoliciesPage = reactExports.lazy(() => __vitePreload(() => import("./PoliciesPage-DhhyWCDG.js"), true ? __vite__mapDeps([17,1,2,3,7,8,5]) : void 0));
+const CheckoutPage = reactExports.lazy(() => __vitePreload(() => import("./Checkout-CRjpNFx7.js"), true ? __vite__mapDeps([18,1,2,3,7,6,5]) : void 0));
+const ProductsPage = reactExports.lazy(() => __vitePreload(() => import("./ProductsPage-D18tkbXp.js"), true ? __vite__mapDeps([19,1,2,3,7,5]) : void 0));
+const BlogLandingPage = reactExports.lazy(() => __vitePreload(() => import("./BlogLandingPage-BzFudIUi.js"), true ? __vite__mapDeps([20,1,2,3,7,21,5]) : void 0));
+const BlogPostPage = reactExports.lazy(() => __vitePreload(() => import("./BlogPostPage-Bv3HxOAd.js"), true ? __vite__mapDeps([22,1,2,3,7,21,5]) : void 0));
 const ScrollToTop = () => {
   const { pathname } = useLocation();
   React.useLayoutEffect(() => {

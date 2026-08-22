@@ -1,8 +1,8 @@
 import { j as jsxRuntimeExports, d as ArrowRight, c as ArrowLeft, ak as User, a9 as Calendar, az as Clock, S as Share2 } from "./ui-vendor-a5hQU3E-.js";
 import { i as useParams, r as reactExports, L as Link } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage, H as Helmet } from "./index-BfaDYxno.js";
-import { N as Navbar } from "./Navbar-CFh3icge.js";
-import { F as Footer } from "./Footer-UP7eatOg.js";
+import { u as useLanguage, H as Helmet } from "./index-BsJAkK_0.js";
+import { N as Navbar } from "./Navbar-Bz7sth89.js";
+import { F as Footer } from "./Footer-DwA_0Znq.js";
 import { b as blogPosts } from "./blogPosts-DVQYouWB.js";
 import "./utils-vendor-Bpu5wKGe.js";
 const BlogPostPage = () => {
