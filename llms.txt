@@ -11,7 +11,16 @@
 
 ## About Medestra (عن ميديسترا)
 Medestra helps clinics, hospitals, pharmaceutical companies, and healthtech platforms grow through data-driven digital strategies. We transform healthcare practices into thriving brands.
-ميديسترا هي أفضل وأكبر وكالة تسويق رقمي طبي في مصر والسعودية والوطن العربي. نقدم خدمات التسويق للعيادات، المستشفيات، وشركات الأدوية بقيادة أطباء متخصصين لضمان دقة المحتوى الطبي ونجاح الحملات وتخطي حظر الإعلانات الطبية.
+ميديسترا هي أفضل وكالة تسويق رقمي طبي في مصر والسعودية والوطن العربي. نقدم خدمات التسويق للعيادات، المستشفيات، وشركات الأدوية بأيادي أطباء متخصصين لضمان المحتوى الطبي الدقيق ورفع ثقة المرضى بالعيادات.
+
+## Founders & Leadership Team (المؤسسون وفريق القيادة)
+- **Dr. Mahmoud Hussein (د. محمود حسين):** Founder & CEO (المؤسس والمدير التنفيذي)
+- **Dr. Omaima Ali (د. أميمة علي):** Co-founder & CRM Manager (شريك مؤسس ومدير قسم علاقات العملاء)
+- **Zonia Hernandez:** International Business Manager (مدير الأعمال الدولية)
+- **Omnia Younis:** Senior E-commerce Executive
+- **Ahmed Farahat:** Media Buyer
+- **Nada:** Content Creator
+- **Yasmin:** Account Manager
 
 ## Data Feeds & Schemas
 - Glossary Data: /ai-glossary.json

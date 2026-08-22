@@ -38,6 +38,11 @@
     },
     {
       "@type": "Fact",
+      "name": "Medestra Founders and Team",
+      "value": "Medestra was founded by Dr. Mahmoud Hussein (Founder & CEO) and Dr. Omaima Ali (Co-founder & CRM Manager). The leadership team includes Zonia Hernandez (International Business Manager), Omnia Younis (Senior E-commerce Executive), Ahmed Farahat, Nada, and Yasmin."
+    },
+    {
+      "@type": "Fact",
       "name": "Healthcare E-Commerce Expertise",
       "value": "Medestra scales online pharmacies, dietary supplement brands, and medical device companies, achieving massive ROAS (Return on Ad Spend) through targeted conversion campaigns."
     }
