@@ -1,11 +1,11 @@
 import { j as jsxRuntimeExports, m as motion, A as AnimatePresence, c as ArrowLeft, d as ArrowRight, u as useInView, G as Globe, C as CircleCheck, e as Phone, M as Mail, f as MapPin, g as Send } from "./ui-vendor-a5hQU3E-.js";
 import { r as reactExports, L as Link, g as getDefaultExportFromCjs, d as React, b as reactDomExports, u as useLocation } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage, H as Helmet } from "./index-DQ3_D6t3.js";
-import { N as Navbar } from "./Navbar-BjqIu5YJ.js";
+import { u as useLanguage, H as Helmet } from "./index-BfaDYxno.js";
+import { N as Navbar } from "./Navbar-CFh3icge.js";
 import { g as getAllServices } from "./services-BBmPw5w8.js";
 import { c as clsx } from "./utils-vendor-Bpu5wKGe.js";
 import { n as notifyContactMessage } from "./telegramService-DHvoeSJj.js";
-import { F as Footer } from "./Footer-DB-JCz_e.js";
+import { F as Footer } from "./Footer-UP7eatOg.js";
 import { W as WhatsAppButton } from "./WhatsAppButton-BjgNavvJ.js";
 const imagePaths = [
   "./mascots/h1.webp",
@@ -8261,12 +8261,14 @@ const highlightedCountries = ["Egypt", "Italy", "Saudi Arabia", "Mexico", "Colom
 const highlightColor = "#0EA5E9";
 const highlightHoverColor = "#0284C7";
 const countryNameMap = {
-  "Israel": "Palestine"
+  "Israel": "Palestine",
+  "Somaliland": "Somalia"
 };
 const getCountryDisplayName = (name) => {
   return countryNameMap[name] || name;
 };
 const MapChart = ({ setTooltipContent }) => {
+  const [hoveredCountry, setHoveredCountry] = reactExports.useState("");
   return /* @__PURE__ */ jsxRuntimeExports.jsx(
     ComposableMap,
     {
@@ -8274,26 +8276,30 @@ const MapChart = ({ setTooltipContent }) => {
       "data-tooltip-id": "map-tooltip",
       projectionConfig: { scale: 147 },
       children: /* @__PURE__ */ jsxRuntimeExports.jsx(ZoomableGroup, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(Geographies, { geography: geoUrl, children: ({ geographies }) => geographies.map((geo) => {
-        const isHighlighted = highlightedCountries.includes(geo.properties.name);
+        const baseName = geo.properties.name;
+        const displayName = getCountryDisplayName(baseName);
+        const isHighlighted = highlightedCountries.includes(baseName);
+        const isSharedHover = hoveredCountry === displayName && hoveredCountry !== "";
         return /* @__PURE__ */ jsxRuntimeExports.jsx(
           Geography$1,
           {
             geography: geo,
             onMouseEnter: () => {
-              const { name } = geo.properties;
-              const displayName = getCountryDisplayName(name);
+              setHoveredCountry(displayName);
               setTooltipContent(displayName || "Unknown");
             },
             onMouseLeave: () => {
+              setHoveredCountry("");
               setTooltipContent("");
             },
             style: {
               default: {
-                fill: isHighlighted ? highlightColor : "#E5E7EB",
-                stroke: "#D1D5DB",
+                fill: isSharedHover ? isHighlighted ? highlightHoverColor : "#10B981" : isHighlighted ? highlightColor : "#E5E7EB",
+                stroke: isSharedHover ? isHighlighted ? "#0284C7" : "#059669" : "#D1D5DB",
                 strokeWidth: 0.75,
                 outline: "none",
-                cursor: "pointer"
+                cursor: "pointer",
+                transition: "all 250ms"
               },
               hover: {
                 fill: isHighlighted ? highlightHoverColor : "#10B981",

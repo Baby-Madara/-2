@@ -1,8 +1,8 @@
 import { j as jsxRuntimeExports, m as motion, ap as BookOpen, K as Search, a9 as Calendar, az as Clock, c as ArrowLeft, d as ArrowRight, X, R as MessageCircle } from "./ui-vendor-a5hQU3E-.js";
 import { r as reactExports, L as Link } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage, H as Helmet } from "./index-DQ3_D6t3.js";
-import { N as Navbar } from "./Navbar-BjqIu5YJ.js";
-import { F as Footer } from "./Footer-DB-JCz_e.js";
+import { u as useLanguage, H as Helmet } from "./index-BfaDYxno.js";
+import { N as Navbar } from "./Navbar-CFh3icge.js";
+import { F as Footer } from "./Footer-UP7eatOg.js";
 import { b as blogPosts } from "./blogPosts-DVQYouWB.js";
 import "./utils-vendor-Bpu5wKGe.js";
 const BlogLandingPage = () => {
