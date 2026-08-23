@@ -1,9 +1,9 @@
 import { j as jsxRuntimeExports, m as motion, R as MessageCircle, at as Star, s as ChevronDown, A as AnimatePresence, d as ArrowRight } from "./ui-vendor-a5hQU3E-.js";
 import { i as useParams, h as useNavigate, r as reactExports } from "./react-vendor-DY0Dzq76.js";
 import { f as findServiceBySlug } from "./services-BBmPw5w8.js";
-import { u as useLanguage } from "./index-BsJAkK_0.js";
-import { F as Footer } from "./Footer-DwA_0Znq.js";
-import { N as Navbar } from "./Navbar-Bz7sth89.js";
+import { u as useLanguage } from "./index-DCiF-v_B.js";
+import { F as Footer } from "./Footer-ynLoocDM.js";
+import { N as Navbar } from "./Navbar-CrRwStlG.js";
 import "./utils-vendor-Bpu5wKGe.js";
 const DocumentIcon = ({ className = "w-8 h-8", color = "currentColor" }) => /* @__PURE__ */ jsxRuntimeExports.jsxs("svg", { viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth: "2", className, children: [
   /* @__PURE__ */ jsxRuntimeExports.jsx("path", { d: "M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" }),
