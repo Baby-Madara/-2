@@ -92,7 +92,7 @@ const blogPosts = [
     `,
     author_ar: "Rewan Hendawy",
     author_en: "Rewan Hendawy",
-    authorLink: "https://www.linkedin.com/in/rewan-hendawy",
+    authorLink: "https://www.linkedin.com/in/rewan-hendawy-3066ba398?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     authorRole_ar: "Medical Intern | Medical Content Creator",
     authorRole_en: "Medical Intern | Medical Content Creator",
     authorImage: "/photos/REWAN.webp",

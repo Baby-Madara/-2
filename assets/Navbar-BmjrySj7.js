@@ -1,6 +1,6 @@
 import { j as jsxRuntimeExports, d as ArrowRight, c as ArrowLeft, ao as Languages, aU as VolumeX, aV as Volume2, X, al as Menu } from "./ui-vendor-a5hQU3E-.js";
 import { r as reactExports, u as useLocation, h as useNavigate, L as Link } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage, a as useAudio } from "./index-By1yMRJj.js";
+import { u as useLanguage, a as useAudio } from "./index-h9-LgMCI.js";
 const Navbar = () => {
   const [isOpen, setIsOpen] = reactExports.useState(false);
   const [scrolled, setScrolled] = reactExports.useState(false);

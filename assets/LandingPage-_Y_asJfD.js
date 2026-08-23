@@ -1,11 +1,11 @@
 import { j as jsxRuntimeExports, m as motion, A as AnimatePresence, c as ArrowLeft, d as ArrowRight, u as useInView, G as Globe, C as CircleCheck, e as Phone, M as Mail, f as MapPin, g as Send } from "./ui-vendor-a5hQU3E-.js";
 import { r as reactExports, L as Link, g as getDefaultExportFromCjs, d as React, b as reactDomExports, u as useLocation } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage, H as Helmet } from "./index-By1yMRJj.js";
-import { N as Navbar } from "./Navbar-D_gJAOQn.js";
+import { u as useLanguage, H as Helmet } from "./index-h9-LgMCI.js";
+import { N as Navbar } from "./Navbar-BmjrySj7.js";
 import { g as getAllServices } from "./services-BBmPw5w8.js";
 import { c as clsx } from "./utils-vendor-Bpu5wKGe.js";
 import { n as notifyContactMessage } from "./telegramService-DHvoeSJj.js";
-import { F as Footer } from "./Footer-BozOKhzH.js";
+import { F as Footer } from "./Footer-8-rgPz_h.js";
 import { W as WhatsAppButton } from "./WhatsAppButton-BjgNavvJ.js";
 const imagePaths = [
   "/mascots/h1.webp",
