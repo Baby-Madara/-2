@@ -1,8 +1,8 @@
 import { j as jsxRuntimeExports, m as motion, n as CircleQuestionMark, au as ChevronUp, s as ChevronDown, A as AnimatePresence } from "./ui-vendor-a5hQU3E-.js";
 import { d as React, r as reactExports } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage, H as Helmet } from "./index-DCiF-v_B.js";
-import { F as Footer } from "./Footer-ynLoocDM.js";
-import { N as Navbar } from "./Navbar-CrRwStlG.js";
+import { u as useLanguage, H as Helmet } from "./index-By1yMRJj.js";
+import { F as Footer } from "./Footer-BozOKhzH.js";
+import { N as Navbar } from "./Navbar-D_gJAOQn.js";
 import "./utils-vendor-Bpu5wKGe.js";
 const FAQItem = ({ question, answer, isOpen, onClick }) => {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-b border-gray-100 last:border-0", children: [

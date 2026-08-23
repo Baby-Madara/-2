@@ -1,8 +1,8 @@
 import { j as jsxRuntimeExports, m as motion, ap as BookOpen, d as ArrowRight, av as ShieldCheck, ag as Award, a as ShoppingCart } from "./ui-vendor-a5hQU3E-.js";
 import { h as useNavigate, u as useLocation, j as useSearchParams, r as reactExports, L as Link } from "./react-vendor-DY0Dzq76.js";
-import { u as useLanguage, H as Helmet } from "./index-DCiF-v_B.js";
-import { N as Navbar } from "./Navbar-CrRwStlG.js";
-import { F as Footer } from "./Footer-ynLoocDM.js";
+import { u as useLanguage, H as Helmet } from "./index-By1yMRJj.js";
+import { N as Navbar } from "./Navbar-D_gJAOQn.js";
+import { F as Footer } from "./Footer-BozOKhzH.js";
 import "./utils-vendor-Bpu5wKGe.js";
 function AcademyLanding() {
   var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l, _m, _n, _o, _p, _q, _r, _s;
