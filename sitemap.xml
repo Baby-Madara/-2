@@ -116,6 +116,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medestra.me/blog/from-online-to-in-clinic-improve-patient-experience</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medestra.me/blog/effective-medical-content-patient-trust</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
