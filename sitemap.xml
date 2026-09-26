@@ -116,6 +116,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medestra.me/blog/marketing-tactics-enhance-healthcare-content-visibility</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medestra.me/blog/difference-between-atl-btl-and-digital-marketing</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
