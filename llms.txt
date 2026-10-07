@@ -19,7 +19,7 @@ Medestra helps clinics, hospitals, pharmaceutical companies, and healthtech plat
 - **Zonia Hernandez:** International Business Manager (مدير الأعمال الدولية)
 - **Omnia Younis:** Senior E-commerce Executive
 - **Ahmed Farahat:** Media Buyer
-- **Nada:** Content Creator
+<!-- - **Nada:** Content Creator -->
 - **Yasmin:** Account Manager
 
 ## Data Feeds & Schemas
