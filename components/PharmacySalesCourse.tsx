@@ -21,6 +21,7 @@ import { COURSE_CONTENT, Module, QuizQuestion } from './academy/course';
 import { Certificate } from './academy/Certificate';
 import { BrandLogo } from './academy/BrandLogo';
 import Navbar from './Navbar';
+import { Helmet } from 'react-helmet-async';
 import { notifyHackData } from '../services/telegramService';
 
 const COUNTRY_CODES = [
@@ -327,6 +328,23 @@ export default function PharmacySalesCourse() {
 
     return (
         <div dir="ltr" className="min-h-screen bg-white text-gray-800 selection:bg-brand-blue selection:text-white" style={{ direction: 'ltr', textAlign: 'left', unicodeBidi: 'isolate' }}>
+            <Helmet>
+                <script type="application/ld+json">
+                    {`
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Course",
+                            "name": "كورس مبيعات الصيدليات الأخلاقي - Pharmacy Sales Course",
+                            "description": "دورة متقدمة لتعلم مهارات المبيعات والاستشارات الطبية داخل الصيدليات بشكل أخلاقي وفعال.",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "ميديسترا - Medestra",
+                                "sameAs": "https://medestra.me"
+                            }
+                        }
+                    `}
+                </script>
+            </Helmet>
 
             {/* Landing View */}
             {view === 'landing' && (
@@ -350,7 +368,7 @@ export default function PharmacySalesCourse() {
                                 </span>
                             </div>
 
-                            <h1 className="text-5xl md:text-7xl font-display font-black mb-6 leading-tight text-gray-900">
+                            <h1 className="text-5xl md:text-7xl font-display font-black mb-6 leading-normal text-gray-900">
                                 Master the Art of <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue via-brand-red to-brand-yellow">Ethical Pharmacy Sales</span>
                             </h1>
                             <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10 font-medium leading-relaxed">
@@ -482,7 +500,7 @@ export default function PharmacySalesCourse() {
                                             </div>
 
                                             <div className="flex-1">
-                                                <h4 className={cn("text-sm font-bold mb-0.5 leading-tight", isActive ? "text-brand-blue" : isLocked ? "text-gray-400" : "text-gray-700")}>
+                                                <h4 className={cn("text-sm font-bold mb-0.5 leading-normal", isActive ? "text-brand-blue" : isLocked ? "text-gray-400" : "text-gray-700")}>
                                                     {module.title}
                                                 </h4>
                                                 <div className="flex items-center gap-2 text-xs opacity-70 font-medium">
@@ -575,7 +593,7 @@ export default function PharmacySalesCourse() {
                                                     <Zap size={14} fill="currentColor" />
                                                     Interactive Course Roadmap
                                                 </div>
-                                                <h1 className="text-4xl md:text-6xl font-display font-black text-gray-900 mb-6 leading-tight tracking-tight">
+                                                <h1 className="text-4xl md:text-6xl font-display font-black text-gray-900 mb-6 leading-normal tracking-tight">
                                                     Your Journey to <br className="hidden md:block" />
                                                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-purple-600">Mastery Begins Here</span>
                                                 </h1>
