@@ -431,7 +431,8 @@ export default function BoboLanding() {
                   href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-amber-500 via-amber-600 to-yellow-600 hover:from-amber-600 hover:to-yellow-500 text-white font-extrabold text-base shadow-[0_10px_25px_rgba(217,119,6,0.35)] hover:shadow-[0_15px_35px_rgba(217,119,6,0.5)] transition-all duration-300 transform hover:scale-[1.03] border border-amber-200/40"
+                  className="gsap-magnetic w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-amber-500 via-amber-600 to-yellow-600 hover:from-amber-600 hover:to-yellow-500 text-white font-extrabold text-base shadow-[0_10px_25px_rgba(217,119,6,0.35)] hover:shadow-[0_15px_35px_rgba(217,119,6,0.5)] transition-all duration-300 transform hover:scale-[1.03] border border-amber-200/40 will-change-transform"
+                  data-strength="0.3"
                 >
                   <span>
                     {isArabic ? 'وظّف BoBo في شركتك الآن' : isItalian ? 'Assumi BoBo per la Tua Azienda' : 'Put BoBo to Work For Your Company'}
@@ -445,7 +446,8 @@ export default function BoboLanding() {
                   download="Hi I'm BOBO.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full bg-amber-500/10 hover:bg-amber-500/20 text-amber-950 font-extrabold text-base border-2 border-amber-400/80 shadow-md hover:shadow-lg transition-all duration-300 backdrop-blur-md group"
+                  className="gsap-magnetic w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full bg-amber-500/10 hover:bg-amber-500/20 text-amber-950 font-extrabold text-base border-2 border-amber-400/80 shadow-md hover:shadow-lg transition-all duration-300 backdrop-blur-md group will-change-transform"
+                  data-strength="0.25"
                 >
                   <Download className="w-5 h-5 text-amber-700 group-hover:-translate-y-0.5 transition-transform" />
                   <span>
@@ -455,7 +457,8 @@ export default function BoboLanding() {
 
                 <button
                   onClick={() => setIsModalOpen(true)}
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-white/80 hover:bg-white text-amber-950 font-bold text-base border-2 border-amber-300/60 shadow-md hover:shadow-lg transition-all duration-300 backdrop-blur-md"
+                  className="gsap-magnetic w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-white/80 hover:bg-white text-amber-950 font-bold text-base border-2 border-amber-300/60 shadow-md hover:shadow-lg transition-all duration-300 backdrop-blur-md cursor-pointer will-change-transform"
+                  data-strength="0.25"
                 >
                   <PhoneCall className="w-4 h-4 text-amber-600" />
                   <span>
@@ -475,7 +478,10 @@ export default function BoboLanding() {
               className="lg:col-span-5 flex justify-center relative"
             >
               {/* Mascot Glass Stage */}
-              <div className="relative w-full max-w-[380px] sm:max-w-[430px] aspect-square flex items-center justify-center">
+              <div 
+                data-max-tilt="8"
+                className="gsap-tilt will-change-transform relative w-full max-w-[380px] sm:max-w-[430px] aspect-square flex items-center justify-center cursor-pointer"
+              >
                 {/* Glowing Concentric Halo */}
                 <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-amber-400/40 via-yellow-300/30 to-amber-500/20 blur-3xl animate-pulse" />
                 
@@ -572,19 +578,19 @@ export default function BoboLanding() {
 
               {/* 3 Metric Cards */}
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-amber-200/60">
-                <div className="p-4 text-center">
+                <div data-max-tilt="6" className="gsap-tilt will-change-transform p-4 text-center rounded-2xl bg-amber-500/5 border border-amber-200/50 hover:bg-amber-500/10 transition-colors">
                   <div className="text-3xl sm:text-4xl font-black text-amber-600 mb-1">6+ {isArabic ? 'أشهر' : 'Months'}</div>
                   <div className="text-xs sm:text-sm text-slate-600 font-medium">
                     {isArabic ? 'اختبار وتحقق داخل ميديسترا' : 'Tested inside Medestra'}
                   </div>
                 </div>
-                <div className="p-4 text-center">
+                <div data-max-tilt="6" className="gsap-tilt will-change-transform p-4 text-center rounded-2xl bg-amber-500/5 border border-amber-200/50 hover:bg-amber-500/10 transition-colors">
                   <div className="text-3xl sm:text-4xl font-black text-amber-600 mb-1">4 {isArabic ? 'أسواق' : 'Regions'}</div>
                   <div className="text-xs sm:text-sm text-slate-600 font-medium">
                     {isArabic ? 'مصر • السعودية • إيطاليا • أمريكا اللاتينية' : isItalian ? 'Egitto • Arabia Saudita • Italia • America Latina' : 'Egypt • Saudi Arabia • Italy • Latin America'}
                   </div>
                 </div>
-                <div className="p-4 text-center">
+                <div data-max-tilt="6" className="gsap-tilt will-change-transform p-4 text-center rounded-2xl bg-amber-500/5 border border-amber-200/50 hover:bg-amber-500/10 transition-colors">
                   <div className="text-3xl sm:text-4xl font-black text-amber-600 mb-1">24/7</div>
                   <div className="text-xs sm:text-sm text-slate-600 font-medium">
                     {isArabic ? 'عمل ومتابعة بلا انقطاع' : 'Always Active Pipeline'}
@@ -631,7 +637,8 @@ export default function BoboLanding() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.08, duration: 0.5 }}
-                  className={`rounded-3xl p-7 transition-all duration-500 hover:-translate-y-2 flex flex-col justify-between ${
+                  data-max-tilt="5"
+                  className={`gsap-tilt will-change-transform rounded-3xl p-7 transition-all duration-500 hover:-translate-y-2 flex flex-col justify-between ${
                     idx === 0 
                       ? 'bg-gradient-to-br from-amber-500/[0.12] via-yellow-400/[0.08] to-amber-600/[0.12] border-2 border-amber-400/60 shadow-[0_15px_35px_rgba(245,158,11,0.15)]'
                       : 'bg-white/70 backdrop-blur-xl border border-amber-200/60 shadow-sm hover:shadow-xl hover:border-amber-300'
