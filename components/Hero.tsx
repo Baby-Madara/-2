@@ -66,6 +66,18 @@ const Hero: React.FC = () => {
       id="hero"
       className="relative pt-24 pb-12 md:pt-32 md:pb-20 overflow-hidden border-b border-slate-200/70"
     >
+      {/* Transparent Background Video */}
+      <div className="absolute inset-0 pointer-events-none select-none z-0 overflow-hidden">
+        <video
+          src="/photos/bacground%20vedio.webm"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover opacity-15"
+        />
+      </div>
+
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
 
