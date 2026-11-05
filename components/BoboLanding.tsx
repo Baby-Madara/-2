@@ -332,24 +332,82 @@ export default function BoboLanding() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bg-gradient-to-b from-amber-100/60 via-amber-50/40 to-[#FFFDF7]">
+      <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden bg-gradient-to-b from-amber-100/60 via-amber-50/40 to-[#FFFDF7]">
         {/* Warm Golden Glow Orbs */}
         <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-gradient-to-tr from-amber-300/30 via-yellow-200/25 to-transparent rounded-full blur-[110px] pointer-events-none -z-0" />
         <div className="absolute top-40 right-10 w-96 h-96 bg-amber-400/20 rounded-full blur-[100px] pointer-events-none -z-0" />
         <div className="absolute bottom-10 left-10 w-80 h-80 bg-yellow-300/25 rounded-full blur-[90px] pointer-events-none -z-0" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
             
+            {/* Visual Mascot Column — First on Mobile so BoBo is the very first thing seen */}
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6 }}
+              className="order-1 lg:order-2 lg:col-span-5 flex justify-center relative"
+            >
+              {/* Mascot Glass Stage */}
+              <div 
+                data-max-tilt="8"
+                className="gsap-tilt will-change-transform relative w-full max-w-[280px] sm:max-w-[350px] lg:max-w-[430px] aspect-square flex items-center justify-center cursor-pointer"
+              >
+                {/* Glowing Concentric Halo */}
+                <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-amber-400/40 via-yellow-300/30 to-amber-500/20 blur-3xl animate-pulse" />
+                
+                {/* Glass Backdrop Card */}
+                <div className="absolute inset-3 sm:inset-4 rounded-[2.25rem] sm:rounded-[3rem] bg-gradient-to-br from-amber-400/[0.18] via-yellow-300/[0.10] to-amber-600/[0.18] backdrop-blur-[30px] border-t-2 border-l-2 border-amber-200/90 border-b border-r border-amber-500/30 shadow-[0_25px_60px_rgba(245,158,11,0.22),_inset_0_2px_4px_rgba(255,255,255,0.9)]" />
+
+                {/* The Mascot Image (BoBo) */}
+                <motion.img 
+                  src={boboImg} 
+                  alt="BoBo Super Intelligence Mascot" 
+                  animate={{ y: [0, -10, 0] }}
+                  transition={{ repeat: Infinity, duration: 4.5, ease: "easeInOut" }}
+                  className="relative z-10 w-[80%] max-w-[230px] sm:max-w-[280px] lg:max-w-[320px] object-contain drop-shadow-[0_20px_35px_rgba(180,83,9,0.35)] select-none pointer-events-none"
+                />
+
+                {/* Floating Micro-Badge Top Left */}
+                <motion.div 
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.4 }}
+                  className="absolute -top-2 -left-1 sm:-top-3 sm:left-2 z-20 bg-white/95 backdrop-blur-md px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-2xl border border-amber-300/70 shadow-lg flex items-center gap-2"
+                >
+                  <div className="text-start">
+                    <div className="text-[10px] sm:text-[11px] font-bold text-amber-900 leading-tight">Super Intelligence</div>
+                    <div className="text-[8px] sm:text-[9px] text-slate-500">Not Just a Chatbot</div>
+                  </div>
+                </motion.div>
+
+                {/* Floating Micro-Badge Bottom Right */}
+                <motion.div 
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.6 }}
+                  className="absolute -bottom-2 -right-1 sm:-bottom-3 sm:right-2 z-20 bg-white/95 backdrop-blur-md px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-2xl border border-amber-300/70 shadow-lg flex items-center gap-2"
+                >
+                  <div className="w-3 h-3 rounded-full bg-emerald-500 flex items-center justify-center shrink-0">
+                    <Check className="w-2 h-2 text-white stroke-[3]" />
+                  </div>
+                  <div className="text-start">
+                    <div className="text-[10px] sm:text-[11px] font-bold text-slate-900 leading-tight">6 Months Verified</div>
+                    <div className="text-[8px] sm:text-[9px] text-slate-500">Tested inside Medestra</div>
+                  </div>
+                </motion.div>
+              </div>
+            </motion.div>
+
             {/* Text & Pitch Column */}
             <motion.div 
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7 }}
-              className="lg:col-span-7 text-center lg:text-start"
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="order-2 lg:order-1 lg:col-span-7 text-center lg:text-start"
             >
               {/* Badge */}
-              <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-gradient-to-r from-amber-400/25 via-yellow-400/20 to-amber-500/20 border border-amber-300/70 shadow-sm backdrop-blur-md mb-6">
+              <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-gradient-to-r from-amber-400/25 via-yellow-400/20 to-amber-500/20 border border-amber-300/70 shadow-sm backdrop-blur-md mb-5">
                 <span className="w-2.5 h-2.5 rounded-full bg-amber-500 animate-ping inline-block" />
                 <span className="text-amber-950 font-bold text-xs md:text-sm tracking-wide">
                   {isArabic 
@@ -361,7 +419,7 @@ export default function BoboLanding() {
               </div>
 
               {/* Main Headline */}
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-950 leading-[1.15] mb-6 tracking-tight">
+              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-slate-950 leading-[1.15] mb-5 tracking-tight">
                 {isArabic ? (
                   <>
                     أهلاً، أنا <span className="bg-gradient-to-r from-amber-600 via-amber-500 to-yellow-600 bg-clip-text text-transparent">BoBo</span> — عضو فريقك الذكي القادم!
@@ -378,7 +436,7 @@ export default function BoboLanding() {
               </h1>
 
               {/* Subtitle hook */}
-              <p className="text-lg sm:text-xl text-slate-700 leading-relaxed font-medium mb-8 max-w-2xl mx-auto lg:mx-0">
+              <p className="text-base sm:text-xl text-slate-700 leading-relaxed font-medium mb-8 max-w-2xl mx-auto lg:mx-0">
                 {isArabic 
                   ? 'ماذا لو كان لدى شركتك عضو فريق ذكي يكتشف الفرص التجارية الجديدة، ويدعم عمليات البيع، ويساعدك في إغلاق المزيد من الصفقات؟ هنا يأتي دوري!'
                   : isItalian
@@ -465,66 +523,6 @@ export default function BoboLanding() {
                     {isArabic ? 'احجز استشارة' : isItalian ? 'Prenota Demo' : 'Request Demo'}
                   </span>
                 </button>
-              </div>
-
-
-            </motion.div>
-
-            {/* Visual Mascot Column */}
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="lg:col-span-5 flex justify-center relative"
-            >
-              {/* Mascot Glass Stage */}
-              <div 
-                data-max-tilt="8"
-                className="gsap-tilt will-change-transform relative w-full max-w-[380px] sm:max-w-[430px] aspect-square flex items-center justify-center cursor-pointer"
-              >
-                {/* Glowing Concentric Halo */}
-                <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-amber-400/40 via-yellow-300/30 to-amber-500/20 blur-3xl animate-pulse" />
-                
-                {/* Glass Backdrop Card */}
-                <div className="absolute inset-4 rounded-[3rem] bg-gradient-to-br from-amber-400/[0.18] via-yellow-300/[0.10] to-amber-600/[0.18] backdrop-blur-[30px] border-t-2 border-l-2 border-amber-200/90 border-b border-r border-amber-500/30 shadow-[0_25px_60px_rgba(245,158,11,0.22),_inset_0_2px_4px_rgba(255,255,255,0.9)]" />
-
-                {/* The Mascot Image (BoBo) */}
-                <motion.img 
-                  src={boboImg} 
-                  alt="BoBo Super Intelligence Mascot" 
-                  animate={{ y: [0, -10, 0] }}
-                  transition={{ repeat: Infinity, duration: 4.5, ease: "easeInOut" }}
-                  className="relative z-10 w-[78%] max-w-[320px] object-contain drop-shadow-[0_20px_35px_rgba(180,83,9,0.35)] select-none pointer-events-none"
-                />
-
-                {/* Floating Micro-Badge Top Left */}
-                <motion.div 
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.6 }}
-                  className="absolute -top-3 -left-2 sm:left-2 z-20 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl border border-amber-300/70 shadow-lg flex items-center gap-2"
-                >
-                  <div className="text-start">
-                    <div className="text-[11px] font-bold text-amber-900 leading-tight">Super Intelligence</div>
-                    <div className="text-[9px] text-slate-500">Not Just a Chatbot</div>
-                  </div>
-                </motion.div>
-
-                {/* Floating Micro-Badge Bottom Right */}
-                <motion.div 
-                  initial={{ opacity: 0, x: 20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.8 }}
-                  className="absolute -bottom-3 -right-2 sm:right-2 z-20 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl border border-amber-300/70 shadow-lg flex items-center gap-2"
-                >
-                  <div className="w-3 h-3 rounded-full bg-emerald-500 flex items-center justify-center">
-                    <Check className="w-2 h-2 text-white stroke-[3]" />
-                  </div>
-                  <div className="text-start">
-                    <div className="text-[11px] font-bold text-slate-900 leading-tight">6 Months Verified</div>
-                    <div className="text-[9px] text-slate-500">Tested inside Medestra</div>
-                  </div>
-                </motion.div>
               </div>
             </motion.div>
 

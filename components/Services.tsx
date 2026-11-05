@@ -1,8 +1,11 @@
-import React, { useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { motion, useInView } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
+import {
+  ArrowUpRight, ArrowUpLeft, ChevronLeft, ChevronRight,
+  LayoutGrid, GalleryHorizontal, ChevronDown, CheckCircle2
+} from 'lucide-react';
 import { getAllServices } from '../constants/services';
-import FeatureIcon from './icons/ServiceIcons';
 import { useLanguage } from '../LanguageContext';
 import doctorMeImg from '../photos/doctor me.webp';
 import callCenterImg from '../photos/call center me.webp';
@@ -12,10 +15,8 @@ import mohadaraImg from '../photos/mohadara.webp';
 import mobarmegImg from '../photos/mobarmeg.webp';
 import boboImg from '../photos/BoBo.webp';
 
-const ServiceCard = ({ service, index, language, getLocalized, t }: any) => {
-  const ref = useRef(null);
-  // Trigger when the element is near the center of the viewport
-  const isInView = useInView(ref, { margin: "-35% 0px -35% 0px", amount: "some" });
+const ServiceCard = ({ service, index, language, getLocalized, isSwipeMode }: any) => {
+  const [expanded, setExpanded] = useState(false);
 
   const getImageSrc = (id: string) => {
     switch (id) {
@@ -34,87 +35,154 @@ const ServiceCard = ({ service, index, language, getLocalized, t }: any) => {
 
   const imageSrc = getImageSrc(service.id);
   const isGold = service.isGold || service.id === 'bobo-si';
-  
+  const isRtl = language === 'ar';
+  const CornerArrow = isRtl ? ArrowUpLeft : ArrowUpRight;
+
+  // Extract up to 3 informational features if present on the service object
+  const featuresList: string[] = Array.isArray(getLocalized(service, 'features'))
+    ? getLocalized(service, 'features').slice(0, 3)
+    : [];
+
   return (
-    <div ref={ref} className="relative group h-full z-20 hover:z-50">
-      {imageSrc && (
-        <img 
-          src={imageSrc} 
-          alt={service.id} 
-          className={`absolute top-0 left-1/2 w-[220px] object-contain transition-all duration-[800ms] ease-[cubic-bezier(0.34,1.56,0.64,1)] -z-10 drop-shadow-2xl pointer-events-none mascot-image ${isInView ? 'in-view' : ''}`}
-          style={{ marginLeft: '-110px' }}
-        />
-      )}
-      <Link to={`/service/${service.slug}`} className="block h-full relative z-10">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ delay: index * 0.1, duration: 0.5 }}
-        data-max-tilt="5"
-        className={`gsap-tilt will-change-transform h-full rounded-[2.5rem] p-6 transition-all duration-700 cursor-pointer group relative overflow-hidden hover:-translate-y-3 ${
+    <div
+      className={`${
+        isSwipeMode ? 'w-[285px] sm:w-[325px] shrink-0 snap-start' : 'w-full'
+      } h-full`}
+    >
+      <div
+        className={`h-full rounded-2xl p-5 transition-all duration-300 group relative flex flex-col justify-between ${
           isGold
-            ? 'bg-gradient-to-br from-amber-400/[0.14] via-yellow-400/[0.08] to-amber-600/[0.14] backdrop-blur-[40px] border-t-[2.5px] border-l-[2.5px] border-amber-300/95 border-b border-r border-amber-500/30 shadow-[0_20px_50px_rgba(245,158,11,0.2),_inset_0_1px_3px_rgba(254,240,138,0.95)] hover:bg-gradient-to-br hover:from-amber-400/[0.22] hover:via-yellow-400/[0.14] hover:to-amber-600/[0.22] hover:shadow-[0_30px_70px_rgba(217,119,6,0.38),_inset_0_1px_4px_rgba(255,255,255,1)]'
-            : 'bg-white/[0.05] backdrop-blur-[40px] border-t-[2.5px] border-l-[2.5px] border-white/90 border-b border-r border-white/5 shadow-[0_20px_50px_rgba(0,0,0,0.1),_inset_0_1px_2px_rgba(255,255,255,0.9)] hover:bg-white/[0.1] hover:shadow-[0_30px_70px_rgba(0,0,0,0.15),_inset_0_1px_3px_rgba(255,255,255,1)]'
+            ? 'bg-[#FFFDF7] border border-amber-300/90 shadow-[0_4px_20px_-4px_rgba(245,158,11,0.1)] hover:border-amber-400'
+            : 'bg-white border border-slate-200/90 shadow-[0_2px_12px_-2px_rgba(15,23,42,0.04)] hover:border-[#00AEEF]/45 hover:shadow-[0_10px_28px_-8px_rgba(0,174,239,0.12)]'
         }`}
       >
-        {/* Subtle Golden ambient flare for gold card */}
-        {isGold && (
-          <>
-            <div className="absolute -top-12 -right-12 w-36 h-36 bg-amber-400/25 rounded-full blur-2xl pointer-events-none group-hover:scale-150 transition-transform duration-700" />
-            <div className="absolute -bottom-12 -left-12 w-36 h-36 bg-yellow-400/20 rounded-full blur-2xl pointer-events-none group-hover:scale-150 transition-transform duration-700" />
-          </>
-        )}
+        <div>
+          {/* Top Informational Row: Index Badge + Mascot Thumbnail + Interactive Expand Button */}
+          <div className="flex items-center justify-between gap-2 mb-3.5">
+            <div className="flex items-center gap-2.5">
+              {imageSrc && (
+                <div
+                  className={`w-11 h-11 rounded-xl overflow-hidden flex items-center justify-center p-1 border shrink-0 transition-transform duration-300 group-hover:scale-105 ${
+                    isGold
+                      ? 'bg-amber-50/80 border-amber-200'
+                      : 'bg-sky-50/70 border-sky-100'
+                  }`}
+                >
+                  <img
+                    src={imageSrc}
+                    alt={service.id}
+                    loading="lazy"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              )}
 
-        {/* Full-card Company Logo Watermark */}
-        <div className={`absolute inset-0 flex items-center justify-center pointer-events-none p-4 transition-opacity duration-700 ${
-          isGold ? 'opacity-[0.10] group-hover:opacity-[0.16]' : 'opacity-[0.08] group-hover:opacity-[0.12]'
-        }`}>
-          <img
-            src="/mesestra.webp"
-            alt=""
-            className="w-full h-full object-contain filter grayscale group-hover:scale-110 transition-transform duration-[1.5s] ease-out"
-          />
-        </div>
-
-        <div className="relative z-10 flex flex-col h-full text-start">
-          {isGold && (
-            <div className="mb-2">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black tracking-wide uppercase bg-gradient-to-r from-amber-500/20 to-yellow-500/25 text-amber-900 border border-amber-300/70 shadow-xs backdrop-blur-md">
-                <span className="w-2 h-2 rounded-full bg-amber-500 animate-ping inline-block" />
-                Super Intelligence (SI)
-              </span>
+              {isGold ? (
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-bold bg-amber-100/80 text-amber-800 border border-amber-300/70">
+                  <span className="w-1.5 h-1.5 rounded-full bg-amber-500" />
+                  SI · AI
+                </span>
+              ) : (
+                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-100 text-slate-600">
+                  0{index + 1}
+                </span>
+              )}
             </div>
-          )}
 
-          <div className="mb-3">
-            <h3 className={`text-xl font-bold leading-normal ${
-              isGold ? 'text-amber-950 font-black' : 'text-slate-900'
-            }`}>
+            <div className="flex items-center gap-1.5">
+              {featuresList.length > 0 && (
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    setExpanded(!expanded);
+                  }}
+                  aria-label="Toggle quick summary"
+                  className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold border transition-all ${
+                    expanded
+                      ? 'bg-[#00AEEF] text-white border-[#00AEEF]'
+                      : 'bg-slate-50 text-slate-600 border-slate-200/80 hover:border-[#00AEEF]/40 hover:text-[#00AEEF]'
+                  }`}
+                >
+                  <span>{language === 'ar' ? 'نقاط رئيسية' : 'Key Points'}</span>
+                  <ChevronDown
+                    size={12}
+                    className={`transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
+                  />
+                </button>
+              )}
+
+              <Link
+                to={`/service/${service.slug}`}
+                aria-label={getLocalized(service, 'title')}
+                className={`w-8 h-8 rounded-lg flex items-center justify-center transition-colors ${
+                  isGold
+                    ? 'bg-amber-100/70 text-amber-700 hover:bg-amber-500 hover:text-white'
+                    : 'bg-slate-100 text-slate-600 hover:bg-[#00AEEF] hover:text-white'
+                }`}
+              >
+                <CornerArrow className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+
+          {/* Clickable Title & Short Description */}
+          <Link to={`/service/${service.slug}`} className="block">
+            <h3
+              className={`text-base sm:text-lg font-black leading-snug mb-2 transition-colors ${
+                isGold
+                  ? 'text-slate-900 group-hover:text-amber-700'
+                  : 'text-slate-900 group-hover:text-[#00AEEF]'
+              }`}
+            >
               {getLocalized(service, 'title')}
             </h3>
-          </div>
 
-          <p className={`mb-6 leading-relaxed text-base flex-grow ${
-            isGold ? 'text-amber-950/80 font-medium' : 'text-slate-700'
-          }`}>
-            {getLocalized(service, 'shortDesc')}
-          </p>
+            <p className="text-slate-600 text-xs sm:text-sm leading-relaxed line-clamp-3 mb-3">
+              {getLocalized(service, 'shortDesc')}
+            </p>
+          </Link>
 
-          <div className="flex justify-between items-center mt-auto pt-4">
-            <div className={`flex items-center gap-2 text-sm font-bold w-fit px-6 py-2 rounded-full transition-all duration-300 transform group-hover:scale-105 ${
-              isGold
-                ? 'bg-gradient-to-r from-amber-500 via-amber-600 to-yellow-600 text-white shadow-[0_8px_20px_rgba(217,119,6,0.35)] group-hover:shadow-[0_12px_28px_rgba(217,119,6,0.55)] border border-amber-200/50'
-                : 'bg-brand-blue text-white shadow-[0_8px_20px_rgba(0,174,239,0.25)] group-hover:shadow-[0_12px_25px_rgba(0,174,239,0.4)] group-hover:bg-[#009ADD] border border-white/20'
-            }`}>
-              {isGold
-                ? (language === 'ar' ? 'تعرّف على BoBo \u2190' : language === 'es' ? 'Conoce a BoBo \u2192' : language === 'it' ? 'Scopri BoBo \u2192' : 'Meet BoBo \u2192')
-                : (language === 'ar' ? 'اكتشف المزيد \u2190' : language === 'es' ? 'Descubrir Más \u2192' : 'Discover More \u2192')}
-            </div>
-          </div>
+          {/* Interactive Inline Informational Drawer */}
+          <AnimatePresence>
+            {expanded && featuresList.length > 0 && (
+              <motion.div
+                initial={{ opacity: 0, height: 0 }}
+                animate={{ opacity: 1, height: 'auto' }}
+                exit={{ opacity: 0, height: 0 }}
+                transition={{ duration: 0.22 }}
+                className="overflow-hidden"
+              >
+                <ul className="pt-2.5 pb-3 mb-2 border-t border-slate-100 space-y-1.5">
+                  {featuresList.map((feat, idx) => (
+                    <li key={idx} className="flex items-start gap-2 text-xs text-slate-700">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-[#00AEEF] shrink-0 mt-0.5" />
+                      <span className="leading-snug">{feat}</span>
+                    </li>
+                  ))}
+                </ul>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
-      </motion.div>
-      </Link>
+
+        {/* Compact Footer Action Row */}
+        <div className="pt-3 mt-1 border-t border-slate-100 flex items-center justify-between">
+          <Link
+            to={`/service/${service.slug}`}
+            className={`inline-flex items-center gap-1.5 text-xs font-bold px-3.5 py-1.5 rounded-lg transition-all ${
+              isGold
+                ? 'bg-amber-500 hover:bg-amber-600 text-white'
+                : 'bg-sky-50 hover:bg-[#00AEEF] text-[#0284c7] hover:text-white'
+            }`}
+          >
+            {isGold
+              ? (language === 'ar' ? 'تعرّف على BoBo \u2190' : language === 'es' ? 'Conoce a BoBo \u2192' : language === 'it' ? 'Scopri BoBo \u2192' : 'Meet BoBo \u2192')
+              : (language === 'ar' ? 'اكتشف المزيد \u2190' : language === 'es' ? 'Descubrir Más \u2192' : 'Discover More \u2192')}
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
@@ -122,42 +190,135 @@ const ServiceCard = ({ service, index, language, getLocalized, t }: any) => {
 const Services: React.FC = () => {
   const langCtx = useLanguage() as any;
   const language = langCtx?.language || 'ar';
+  const dir = langCtx?.dir || 'rtl';
   const t = langCtx?.t || { services: { heading: 'الخدمات', subheading: 'اكتشف خدماتنا المتخصصة' } };
   const services = getAllServices();
+
+  const [viewMode, setViewMode] = useState<'grid' | 'swipe'>('grid');
+  const swipeTrackRef = useRef<HTMLDivElement>(null);
 
   const getLocalized = (obj: any, key: string) => {
     return obj[`${key}_${language}`] || obj[`${key}_en`];
   };
 
+  const scrollTrack = (direction: 'prev' | 'next') => {
+    if (!swipeTrackRef.current) return;
+    const step = 330;
+    const delta = direction === 'next' ? step : -step;
+    const rtlDelta = dir === 'rtl' ? -delta : delta;
+    swipeTrackRef.current.scrollBy({ left: rtlDelta, behavior: 'smooth' });
+  };
+
   return (
-    <section id="services" className="min-h-screen pt-20 pb-4 md:pt-24 md:pb-4 bg-transparent flex flex-col justify-center">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            {t.services?.heading || (language === 'ar' ? 'خدماتنا' : 'Our Services')}
-          </h2>
-          <p
-            className="text-lg text-slate-600 max-w-3xl mx-auto"
-            dangerouslySetInnerHTML={{
-              __html: t.services?.subheading || (language === 'ar'
-                ? 'حلول تسويق طبي شاملة مصممة خصيصاً لتنمية <span class="text-[#F5C518] font-extrabold drop-shadow-[0_0_10px_rgba(245,197,24,0.9)]">ممارستك الطبية</span>'
-                : 'Comprehensive healthcare marketing solutions designed to grow your <span class="text-[#F5C518] font-extrabold drop-shadow-[0_0_10px_rgba(245,197,24,0.9)]">medical practice</span>')
-            }}
-          />
+    <section id="services" className="py-14 md:py-20 border-b border-slate-200/70 relative">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+
+        {/* Calm Informational Section Header + Interactive View Controls */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+          <div>
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-50 border border-sky-200/80 text-[#0284c7] text-xs font-bold mb-2.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#00AEEF]" />
+              {language === 'ar' ? 'دليل الخدمات المتخصصة' : 'Specialized Services Directory'}
+            </span>
+
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mb-2 tracking-tight">
+              {t.services?.heading || (language === 'ar' ? 'خدماتنا' : 'Our Services')}
+            </h2>
+
+            <p
+              className="text-xs sm:text-sm md:text-base text-slate-600 max-w-2xl leading-relaxed"
+              dangerouslySetInnerHTML={{
+                __html: t.services?.subheading || (language === 'ar'
+                  ? 'حلول تسويق طبي شاملة مصممة خصيصاً لتنمية ممارستك الطبية'
+                  : 'Comprehensive healthcare marketing solutions designed to grow your medical practice')
+              }}
+            />
+          </div>
+
+          {/* Interactive View Switcher (Grid vs Swipe) */}
+          <div className="flex items-center gap-2 self-start md:self-auto">
+            <div className="inline-flex items-center p-1 rounded-xl bg-slate-100 border border-slate-200/80">
+              <button
+                type="button"
+                onClick={() => setViewMode('grid')}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                  viewMode === 'grid'
+                    ? 'bg-white text-[#0284c7] shadow-2xs border border-slate-200/70'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                <LayoutGrid size={13} />
+                <span>{language === 'ar' ? 'شبكة' : 'Grid'}</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setViewMode('swipe')}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                  viewMode === 'swipe'
+                    ? 'bg-white text-[#0284c7] shadow-2xs border border-slate-200/70'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                <GalleryHorizontal size={13} />
+                <span>{language === 'ar' ? 'سحب تفاعلي' : 'Swipe'}</span>
+              </button>
+            </div>
+
+            {viewMode === 'swipe' && (
+              <div className="flex items-center gap-1.5" dir="ltr">
+                <button
+                  type="button"
+                  onClick={() => scrollTrack('prev')}
+                  aria-label="Previous service"
+                  className="w-8 h-8 rounded-xl bg-white border border-slate-200 text-slate-600 hover:text-[#00AEEF] flex items-center justify-center shadow-2xs"
+                >
+                  <ChevronLeft size={16} />
+                </button>
+                <button
+                  type="button"
+                  onClick={() => scrollTrack('next')}
+                  aria-label="Next service"
+                  className="w-8 h-8 rounded-xl bg-white border border-slate-200 text-slate-600 hover:text-[#00AEEF] flex items-center justify-center shadow-2xs"
+                >
+                  <ChevronRight size={16} />
+                </button>
+              </div>
+            )}
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-y-16 md:gap-x-8 mt-8">
-          {services.map((service, index) => (
-            <ServiceCard 
-              key={service.id} 
-              service={service} 
-              index={index} 
-              language={language} 
-              getLocalized={getLocalized} 
-              t={t} 
-            />
-          ))}
-        </div>
+        {/* Services Container: Responsive Mobile Swipe + Desktop Grid/Swipe Toggle */}
+        {viewMode === 'swipe' ? (
+          <div
+            ref={swipeTrackRef}
+            className="flex gap-4 overflow-x-auto no-scrollbar snap-x snap-mandatory pb-3 -mx-1 px-1"
+          >
+            {services.map((service, index) => (
+              <ServiceCard
+                key={service.id}
+                service={service}
+                index={index}
+                language={language}
+                getLocalized={getLocalized}
+                isSwipeMode={true}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+            {services.map((service, index) => (
+              <ServiceCard
+                key={service.id}
+                service={service}
+                index={index}
+                language={language}
+                getLocalized={getLocalized}
+                isSwipeMode={false}
+              />
+            ))}
+          </div>
+        )}
+
       </div>
     </section>
   );
