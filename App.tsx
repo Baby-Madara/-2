@@ -21,6 +21,7 @@ const PharmacySalesCourse = lazy(() => import('./components/PharmacySalesCourse'
 const PoliciesPage = lazy(() => import('./components/PoliciesPage'));
 const CheckoutPage = lazy(() => import('./components/Checkout'));
 const ProductsPage = lazy(() => import('./components/ProductsPage'));
+const MeniClinicPage = lazy(() => import('./components/MeniClinicPage'));
 const BlogLandingPage = lazy(() => import('./components/blog/BlogLandingPage'));
 const BlogPostPage = lazy(() => import('./components/blog/BlogPostPage'));
 const AdminCertificateGenerator = lazy(() => import('./components/AdminCertificateGenerator'));
@@ -94,6 +95,9 @@ const App: React.FC = () => {
                 <Route path="/policies" element={<PoliciesPage />} />
                 <Route path="/checkout" element={<CheckoutPage />} />
                 <Route path="/products" element={<ProductsPage />} />
+                <Route path="/products/mepos" element={<ProductsPage />} />
+                <Route path="/meni-clinic" element={<MeniClinicPage />} />
+                <Route path="/products/meni-clinic" element={<MeniClinicPage />} />
                 <Route path="/blog" element={<BlogLandingPage />} />
                 <Route path="/blog/:slug" element={<BlogPostPage />} />
                 <Route path="/medestra-admin-tools-cert-gen-8x9q" element={<AdminCertificateGenerator />} />
