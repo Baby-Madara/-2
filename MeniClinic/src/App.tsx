@@ -525,6 +525,21 @@ export default function App() {
     return () => unsubscribe();
   }, []);
 
+  // Synchronize URL with authentication state (/MeniClinic/login when logged out, /MeniClinic when logged in)
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const basePath = '/MeniClinic';
+    if (!staffSession) {
+      if (window.location.pathname.replace(/\/+$/, '') !== `${basePath}/login`) {
+        window.history.replaceState(null, '', `${basePath}/login`);
+      }
+    } else {
+      if (window.location.pathname.replace(/\/+$/, '').endsWith('/login')) {
+        window.history.replaceState(null, '', basePath);
+      }
+    }
+  }, [staffSession]);
+
   // Backend API (Cloudflare D1 / Express Server) Bootstrap & Live Sync
   // Active when not connected to Firebase Auth (so Cloudflare D1 / Node backend is the primary store)
   useEffect(() => {
@@ -751,6 +766,9 @@ export default function App() {
     setStaffSession(null);
     localStorage.removeItem(STORAGE_KEYS.SESSION);
     setMobileSidebarOpen(false);
+    if (typeof window !== 'undefined') {
+      window.history.pushState(null, '', '/MeniClinic/login');
+    }
   };
 
   const handleConnectCloudSync = async () => {

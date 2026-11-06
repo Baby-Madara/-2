@@ -595,7 +595,7 @@ export default function MeniClinicPage() {
                 </a>
 
                 <a
-                  href="/meniclinic"
+                  href="/MeniClinic/login"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-sm sm:text-base shadow-md transition-all hover:scale-[1.02]"

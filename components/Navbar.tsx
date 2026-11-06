@@ -238,7 +238,7 @@ const Navbar: React.FC = () => {
                         </span>
                       </Link>
                       <a
-                        href="/meniclinic"
+                        href="/MeniClinic/login"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-3 py-2 rounded-lg text-xs font-bold text-emerald-700 bg-emerald-50/70 hover:bg-emerald-100 transition-colors flex items-center justify-between border border-emerald-200/60"

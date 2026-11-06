@@ -18,7 +18,7 @@ const pages = [
   '/products',
   '/products/mepos',
   '/meni-clinic',
-  '/meniclinic',
+  '/MeniClinic/login',
   '/products/meni-clinic',
   '/blog',
   '/meta-ads-master',

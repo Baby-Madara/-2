@@ -6,7 +6,7 @@ import './index.css';
 if ('serviceWorker' in navigator && typeof window !== 'undefined') {
   window.addEventListener('load', () => {
     navigator.serviceWorker
-      .register('/meniclinic/sw.js')
+      .register('/MeniClinic/sw.js')
       .then((reg) => {
         // Automatically check for SW updates
         reg.addEventListener('updatefound', () => {

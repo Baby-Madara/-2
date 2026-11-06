@@ -27,6 +27,13 @@ const BlogPostPage = lazy(() => import('./components/blog/BlogPostPage'));
 const AdminCertificateGenerator = lazy(() => import('./components/AdminCertificateGenerator'));
 const BoboLanding = lazy(() => import('./components/BoboLanding'));
 
+const ExternalRedirect: React.FC<{ to: string }> = ({ to }) => {
+  React.useLayoutEffect(() => {
+    window.location.replace(to);
+  }, [to]);
+  return null;
+};
+
 const ScrollToTop = () => {
   const { pathname } = useLocation();
   React.useLayoutEffect(() => {
@@ -98,6 +105,10 @@ const App: React.FC = () => {
                 <Route path="/products/mepos" element={<ProductsPage />} />
                 <Route path="/meni-clinic" element={<MeniClinicPage />} />
                 <Route path="/products/meni-clinic" element={<MeniClinicPage />} />
+                <Route path="/MeniClinic" element={<ExternalRedirect to="/MeniClinic/login/" />} />
+                <Route path="/MeniClinic/*" element={<ExternalRedirect to="/MeniClinic/login/" />} />
+                <Route path="/meniclinic" element={<ExternalRedirect to="/MeniClinic/login/" />} />
+                <Route path="/meniclinic/*" element={<ExternalRedirect to="/MeniClinic/login/" />} />
                 <Route path="/blog" element={<BlogLandingPage />} />
                 <Route path="/blog/:slug" element={<BlogPostPage />} />
                 <Route path="/medestra-admin-tools-cert-gen-8x9q" element={<AdminCertificateGenerator />} />

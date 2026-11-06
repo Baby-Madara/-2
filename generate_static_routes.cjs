@@ -133,8 +133,8 @@ function injectOgTags(html, { title, description, image, url, author, date }) {
 
 // Create folders and index.html for basic pages
 pages.forEach(page => {
-  if (page === 'meniclinic') {
-    // Preserve the standalone MeniClinic app build in dist/meniclinic
+  if (page === 'meniclinic' || page === 'MeniClinic') {
+    // Preserve the standalone MeniClinic app build in dist/MeniClinic
     return;
   }
   const dirPath = path.join(distDir, page);
@@ -153,6 +153,27 @@ pages.forEach(page => {
     fs.writeFileSync(path.join(dirPath, 'index.html'), indexHtmlContent);
   }
 });
+
+// Ensure standalone MeniClinic routes (/MeniClinic/login and lowercase fallback /meniclinic/login) are generated
+const meniAppDir = path.join(distDir, 'MeniClinic');
+const meniAppIndex = path.join(meniAppDir, 'index.html');
+if (fs.existsSync(meniAppIndex)) {
+  const meniAppHtml = fs.readFileSync(meniAppIndex, 'utf-8');
+  const meniLoginDir = path.join(meniAppDir, 'login');
+  if (!fs.existsSync(meniLoginDir)) {
+    fs.mkdirSync(meniLoginDir, { recursive: true });
+  }
+  fs.writeFileSync(path.join(meniLoginDir, 'index.html'), meniAppHtml);
+
+  // Also create lowercase /meniclinic and /meniclinic/login redirect/copies for case-insensitive access on Linux hosts
+  const lowerMeniDir = path.join(distDir, 'meniclinic');
+  const lowerLoginDir = path.join(lowerMeniDir, 'login');
+  if (!fs.existsSync(lowerLoginDir)) {
+    fs.mkdirSync(lowerLoginDir, { recursive: true });
+  }
+  fs.writeFileSync(path.join(lowerMeniDir, 'index.html'), meniAppHtml);
+  fs.writeFileSync(path.join(lowerLoginDir, 'index.html'), meniAppHtml);
+}
 
 // Create folders and index.html for services
 services.forEach(service => {

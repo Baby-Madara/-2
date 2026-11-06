@@ -4,9 +4,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/meniclinic/',
+    base: '/MeniClinic/',
     build: {
-      outDir: path.resolve(__dirname, '../dist/meniclinic'),
+      outDir: path.resolve(__dirname, '../dist/MeniClinic'),
       emptyOutDir: true,
     },
     plugins: [tailwindcss()],
