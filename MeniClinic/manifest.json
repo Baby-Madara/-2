@@ -1,0 +1,40 @@
+{
+  "name": "MeniClinic - نظام إدارة العيادات والمراكز الطبية",
+  "short_name": "MeniClinic",
+  "description": "نظام إدارة العيادات والمراكز الطبية الذكي للمرضى والحجوزات والمالية",
+  "start_url": "/MeniClinic/login",
+  "scope": "/MeniClinic/",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f766e",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": ["medical", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/MeniClinic/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/MeniClinic/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/MeniClinic/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/MeniClinic/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
