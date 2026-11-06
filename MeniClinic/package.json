@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
-    "cf:d1:init": "wrangler d1 execute shifaa-clinic-db --remote --file=./schema.sql",
+    "cf:d1:init": "wrangler d1 execute meniclinic --remote --file=./schema.sql",
     "cf:deploy": "vite build && wrangler pages deploy dist --project-name shifaa-clinic-crm"
   },
   "dependencies": {
