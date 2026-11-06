@@ -237,17 +237,6 @@ const Navbar: React.FC = () => {
                           {language === 'ar' ? 'للعيادات CRM' : 'Clinic CRM'}
                         </span>
                       </Link>
-                      <a
-                        href="/MeniClinic/login"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="px-3 py-2 rounded-lg text-xs font-bold text-emerald-700 bg-emerald-50/70 hover:bg-emerald-100 transition-colors flex items-center justify-between border border-emerald-200/60"
-                      >
-                        <span>{language === 'ar' ? 'دخول Meni Clinic' : 'Open Meni Clinic'}</span>
-                        <span className="text-[10px] font-semibold text-emerald-600 bg-emerald-200/70 px-1.5 py-0.5 rounded">
-                          {language === 'ar' ? 'تطبيق حي' : 'Live App'}
-                        </span>
-                      </a>
                     </div>
                   </div>
                 </div>
