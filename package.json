@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node generate_sitemap.cjs && vite build && node generate_static_routes.cjs",
+    "build": "node generate_sitemap.cjs && vite build && pnpm --dir MeniClinic build && node generate_static_routes.cjs",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },

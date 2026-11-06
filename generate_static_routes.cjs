@@ -133,6 +133,10 @@ function injectOgTags(html, { title, description, image, url, author, date }) {
 
 // Create folders and index.html for basic pages
 pages.forEach(page => {
+  if (page === 'meniclinic') {
+    // Preserve the standalone MeniClinic app build in dist/meniclinic
+    return;
+  }
   const dirPath = path.join(distDir, page);
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(dirPath, { recursive: true });
