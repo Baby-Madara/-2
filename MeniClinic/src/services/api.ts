@@ -7,7 +7,14 @@ export interface BootstrapResponse {
   transactions: Transaction[];
 }
 
-const API_BASE = '/api';
+// In production on medestra.me or local dev, point directly to the Cloudflare Pages D1 backend.
+// When served directly on shifaa-clinic-crm.pages.dev, use relative '/api'.
+const API_BASE =
+  typeof window !== 'undefined' &&
+  (window.location.hostname === 'shifaa-clinic-crm.pages.dev' ||
+    window.location.hostname.endsWith('.shifaa-clinic-crm.pages.dev'))
+    ? '/api'
+    : 'https://shifaa-clinic-crm.pages.dev/api';
 
 async function safeFetchJson<T>(url: string, init?: RequestInit): Promise<T | null> {
   try {
