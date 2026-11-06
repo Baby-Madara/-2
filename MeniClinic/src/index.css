@@ -1,6 +1,6 @@
-@import "tailwindcss";
-@source "./";
+@import "tailwindcss" source(none);
 @source "../index.html";
+@source "./**/*.{js,ts,jsx,tsx}";
 
 @layer base {
   :root {
