@@ -2,252 +2,302 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://medestra.me/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/about</loc>
+    <loc>https://medestra.me/about/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/services</loc>
+    <loc>https://medestra.me/services/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/markets</loc>
+    <loc>https://medestra.me/markets/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/contact</loc>
+    <loc>https://medestra.me/contact/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/faq</loc>
+    <loc>https://medestra.me/faq/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/academy</loc>
+    <loc>https://medestra.me/academy/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/courses</loc>
+    <loc>https://medestra.me/courses/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/books</loc>
+    <loc>https://medestra.me/books/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/verify-certificate</loc>
+    <loc>https://medestra.me/verify-certificate/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/policies</loc>
+    <loc>https://medestra.me/policies/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/checkout</loc>
+    <loc>https://medestra.me/checkout/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/products</loc>
+    <loc>https://medestra.me/products/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/products/mepos</loc>
+    <loc>https://medestra.me/products/mepos/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/meni-clinic</loc>
+    <loc>https://medestra.me/meni-clinic/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/MeniClinic/login</loc>
+    <loc>https://medestra.me/MeniClinic/login/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/products/meni-clinic</loc>
+    <loc>https://medestra.me/products/meni-clinic/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/blog</loc>
+    <loc>https://medestra.me/blog/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/meta-ads-master</loc>
+    <loc>https://medestra.me/meta-ads-master/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/meta-ads-manager</loc>
+    <loc>https://medestra.me/meta-ads-manager/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/pharmacy-sales</loc>
+    <loc>https://medestra.me/pharmacy-sales/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/bobo</loc>
+    <loc>https://medestra.me/bobo/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/service/bobo-super-intelligence</loc>
+    <loc>https://medestra.me/service/bobo-super-intelligence/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/service/social-media</loc>
+    <loc>https://medestra.me/service/social-media/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/service/ecommerce</loc>
+    <loc>https://medestra.me/service/ecommerce/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/service/customer-service</loc>
+    <loc>https://medestra.me/service/customer-service/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/service/content-marketing</loc>
+    <loc>https://medestra.me/service/content-marketing/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/service/web-mobile</loc>
+    <loc>https://medestra.me/service/web-mobile/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/service/training</loc>
+    <loc>https://medestra.me/service/training/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medestra.me/blog/how-medestra-builds-superintelligence-systems-for-healthcare</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/how-medestra-builds-superintelligence-systems-for-healthcare/</loc>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/marketing-tactics-enhance-healthcare-content-visibility</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/marketing-tactics-enhance-healthcare-content-visibility/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/difference-between-atl-btl-and-digital-marketing</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/difference-between-atl-btl-and-digital-marketing/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/from-online-to-in-clinic-improve-patient-experience</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/from-online-to-in-clinic-improve-patient-experience/</loc>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/effective-medical-content-patient-trust</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/effective-medical-content-patient-trust/</loc>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/pharmacy-marketing-strategies-2026</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/pharmacy-marketing-strategies-2026/</loc>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/double-dental-clinic-revenue-meta-ads</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/double-dental-clinic-revenue-meta-ads/</loc>
+    <lastmod>2026-08-11T12:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/medical-seo-guide-for-clinics</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/medical-seo-guide-for-clinics/</loc>
+    <lastmod>2026-08-09T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/handling-negative-patient-reviews</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/handling-negative-patient-reviews/</loc>
+    <lastmod>2026-08-05T14:30:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/medical-content-creation-social-media</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/medical-content-creation-social-media/</loc>
+    <lastmod>2026-08-01T09:15:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/training-medical-call-center-conversion</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/training-medical-call-center-conversion/</loc>
+    <lastmod>2026-07-28T11:45:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/telehealth-marketing-strategies</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/telehealth-marketing-strategies/</loc>
+    <lastmod>2026-07-20T16:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/whatsapp-marketing-automation-clinics</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/whatsapp-marketing-automation-clinics/</loc>
+    <lastmod>2026-07-15T09:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/designing-patient-centric-medical-website</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/designing-patient-centric-medical-website/</loc>
+    <lastmod>2026-07-10T12:30:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/patient-retention-strategies-clinics</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/patient-retention-strategies-clinics/</loc>
+    <lastmod>2026-07-05T14:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/influencer-marketing-for-healthcare</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/influencer-marketing-for-healthcare/</loc>
+    <lastmod>2026-06-25T11:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/managing-clinic-peak-hours</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/managing-clinic-peak-hours/</loc>
+    <lastmod>2026-06-15T15:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/marketing-dietary-supplements-compliance</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/marketing-dietary-supplements-compliance/</loc>
+    <lastmod>2026-08-13T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/ugc-influencers-for-supplements</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/ugc-influencers-for-supplements/</loc>
+    <lastmod>2026-08-13T12:30:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/seo-for-supplement-ecommerce</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/seo-for-supplement-ecommerce/</loc>
+    <lastmod>2026-08-13T15:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://medestra.me/blog/medestra-vision-cross-continental-sustainability</loc>
-    <priority>0.7</priority>
+    <loc>https://medestra.me/blog/medestra-vision-cross-continental-sustainability/</loc>
+    <lastmod>2025-01-01T00:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
