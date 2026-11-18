@@ -284,12 +284,8 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <!--
-    SEO Pre-render Content Block
-    Provides meaningful crawlable HTML to Googlebot before JS executes.
-    Visually hidden from users once React hydrates #root.
-  -->
-  <div id="root">
+  <div id="root"></div>
+  <noscript id="seo-fallback">
     <header>
       <nav aria-label="Site Navigation">
         <a href="/">ميديسترا (Medestra) — شركة تسويق طبي رقمي في مصر والسعودية وإيطاليا</a> |
@@ -319,7 +315,7 @@
         </ul>
       </article>
     </main>
-  </div>
+  </noscript>
 </body>
 
 </html>
