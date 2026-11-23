@@ -73,12 +73,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://medestra.me/products/mepos/</loc>
-    <lastmod>2026-11-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://medestra.me/meni-clinic/</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -86,12 +80,6 @@
   </url>
   <url>
     <loc>https://medestra.me/MeniClinic/login/</loc>
-    <lastmod>2026-11-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medestra.me/products/meni-clinic/</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -122,12 +110,6 @@
   </url>
   <url>
     <loc>https://medestra.me/bobo/</loc>
-    <lastmod>2026-11-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medestra.me/service/bobo-super-intelligence/</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
