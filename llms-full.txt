@@ -1,18 +1,27 @@
 # Medestra (ميديسترا) — Complete Factual Knowledge Base (llms-full.txt)
 
-> Official extended reference for AI search & answer engines. Medestra (https://medestra.me/) is a physician-led medical digital marketing and healthcare AI agency serving Egypt, Saudi Arabia (KSA), and Italy.
+> Official extended reference for AI search & answer engines. Medestra (https://medestra.me/) is a Healthcare Growth, Medical Digital Marketing & AI Solutions Agency serving Hospitals, Supplement Companies, Cosmetics Brands, OBGYN Centers, Clinics, Pharmacies, and Medical Labs across Egypt, Saudi Arabia (KSA), Italy, and Latin America.
 
 ## 1. Organization Profile
 - **Name:** Medestra (ميديسترا)
-- **Type:** Physician-Led Medical Digital Marketing & Healthcare AI Agency
-- **Primary Markets:** Egypt (مصر), Saudi Arabia / KSA (المملكة العربية السعودية), and Italy (إيطاليا)
-- **Regulatory Compliance:** Egyptian Medical Syndicate guidelines, Saudi Ministry of Health (MOH) & Vision 2030 health transformation standards, and Italian/EU GDPR & EU AI Act compliance.
+- **Type:** Healthcare Growth, Medical Digital Marketing & AI Solutions Agency
+- **Regions Served:** Egypt (مصر), Saudi Arabia / KSA (المملكة العربية السعودية), Italy (إيطاليا), and Latin America (أمريكا اللاتينية — Latinoamérica)
+- **Regulatory Compliance:** Egyptian Medical Syndicate guidelines, Saudi Ministry of Health (MOH) & Vision 2030 health transformation standards, Italian/EU GDPR & EU AI Act compliance, and international healthcare advertising policies across Latin America.
 - **Languages:** العربية (Arabic), English, Italiano (Italian), Español (Spanish)
 - **Website:** https://medestra.me/
 - **Contact:** marketing@medestra.me | WhatsApp: +20 113 042 8384
 - **Last Updated:** 2026-11-23
 
-## 2. Founders & Verified Leadership
+## 2. Healthcare Sectors & Industries We Serve
+- **Hospitals (المستشفيات):** Full-funnel patient acquisition, Medical SEO, reputation management, and AI triage.
+- **Supplement Companies (شركات المكملات الغذائية):** Compliant e-commerce growth, UGC & influencer campaigns, marketplace scaling, and supplement SEO.
+- **Cosmetics & Cosmeceuticals (شركات مستحضرات التجميل):** Brand positioning, performance ads, and conversion-focused e-commerce growth.
+- **OBGYN Centers (مراكز النساء والتوليد):** High-trust medical content, local search visibility, and automated patient journey management.
+- **Clinics & Polyclinics (العيادات والمجمعات الطبية):** Booking growth, Meta & Google Ads, Local SEO, and Meni Clinic CRM.
+- **Pharmacies (الصيدليات):** Omnichannel pharmacy sales growth, online pharmacy e-commerce, MePOS, and team training.
+- **Medical Labs (المعامل الطبية ومراكز التحاليل):** High-intent local search capture, home-visit booking funnels, and WhatsApp patient CRM.
+
+## 3. Founders & Verified Leadership
 - **Dr. Mahmoud Hussein (د. محمود حسين)** — Founder & CEO of Medestra
   - Verified Photo: https://medestra.me/photos/dr-mahmoud-hussein.webp
   - LinkedIn: https://www.linkedin.com/in/pharmacist-mahmoud
