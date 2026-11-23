@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://medestra.me/</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://medestra.me/mesestra.webp</image:loc>
+      <image:title>ميديسترا (Medestra) — Medical Digital Marketing Agency in Egypt, Saudi Arabia &amp; Italy</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/about/</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/dr-mahmoud-hussein.webp</image:loc>
+      <image:title>Dr. Mahmoud Hussein (د. محمود حسين) — Founder &amp; CEO of Medestra</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://medestra.me/photos/dr-omaima-ali.jpeg</image:loc>
+      <image:title>Dr. Omaima Ali (د. أميمة علي) — Co-Founder &amp; CRM Manager of Medestra</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/services/</loc>
@@ -77,6 +89,10 @@
     <lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/Meni%20Clinic.webp</image:loc>
+      <image:title>Meni Clinic CRM — Polyclinic Management System by Medestra</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/MeniClinic/login/</loc>
@@ -112,7 +128,11 @@
     <loc>https://medestra.me/bobo/</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/BoBo.webp</image:loc>
+      <image:title>BoBo Super Intelligence — Autonomous Medical AI by Medestra</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/service/social-media/</loc>
@@ -155,125 +175,209 @@
     <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/super.webp</image:loc>
+      <image:title>The Superintelligence (ASI) Healthcare Revolution: How Medestra Engineers Autonomous Medical Systems for the Future</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/marketing-tactics-enhance-healthcare-content-visibility/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/Marketing%20Tactics%20That%20Enhance%20Healthcare%20Content.webp</image:loc>
+      <image:title>Marketing Tactics That Enhance Healthcare Content Visibility</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/difference-between-atl-btl-and-digital-marketing/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/ATL%20BTL%20DIGITAL.webp</image:loc>
+      <image:title>The Difference Between ATL, BTL, and Digital Marketing</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/from-online-to-in-clinic-improve-patient-experience/</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/From%20Online%20to%20In-Clinic.webp</image:loc>
+      <image:title>From Online to In-Clinic: How to Improve the Patient Experience</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/effective-medical-content-patient-trust/</loc>
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/How%20to%20Create%20Effective%20Medical%20Content%20That%20Builds%20Patient%20Trust.webp</image:loc>
+      <image:title>How to Create Effective Medical Content That Builds Patient Trust</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/pharmacy-marketing-strategies-2026/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/Top%20Pharmacy%20Marketing%20Strategies%20in%202026.webp</image:loc>
+      <image:title>Top Pharmacy Marketing Strategies in 2026: How to Stand Out in a Competitive Market</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/double-dental-clinic-revenue-meta-ads/</loc>
     <lastmod>2026-08-11T12:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/How%20to%20Double%20Your%20Dental%20Clinic%20Revenue%20Using%20Meta%20Ads%20(2026%20Guide).webp</image:loc>
+      <image:title>How to Double Your Dental Clinic Revenue Using Meta Ads (2026 Guide)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/medical-seo-guide-for-clinics/</loc>
     <lastmod>2026-08-09T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/Comprehensive%20Medical%20SEO%20Guide.webp</image:loc>
+      <image:title>Comprehensive Medical SEO Guide: Ranking Your Clinic on Google</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/handling-negative-patient-reviews/</loc>
     <lastmod>2026-08-05T14:30:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/The%20Art%20of%20Handling%20Negative%20Patient%20Reviews%20Online.webp</image:loc>
+      <image:title>The Art of Handling Negative Patient Reviews Online</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/medical-content-creation-social-media/</loc>
     <lastmod>2026-08-01T09:15:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/Creating%20Medical%20Content%20that%20Attracts%20Thousands%20on%20TikTok%20%26%20Instagram.webp</image:loc>
+      <image:title>Creating Medical Content that Attracts Thousands on TikTok &amp; Instagram</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/training-medical-call-center-conversion/</loc>
     <lastmod>2026-07-28T11:45:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/Why%20Your%20Clinic%20Loses%20Half%20Its%20Potential%20Patients%20on%20the%20Phone%20(The%20Solution).webp</image:loc>
+      <image:title>Why Your Clinic Loses Half Its Potential Patients on the Phone (The Solution)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/telehealth-marketing-strategies/</loc>
     <lastmod>2026-07-20T16:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/Successful%20Marketing%20Strategies%20for%20Telehealth%20Consultations.webp</image:loc>
+      <image:title>Successful Marketing Strategies for Telehealth Consultations</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/whatsapp-marketing-automation-clinics/</loc>
     <lastmod>2026-07-15T09:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/WhatsApp%20Marketing.webp</image:loc>
+      <image:title>WhatsApp Marketing Automation for Clinics: Double Bookings with Less Effort</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/designing-patient-centric-medical-website/</loc>
     <lastmod>2026-07-10T12:30:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/Designing%20a%20Patient-Centric%20Medical%20Website%20that%20Converts.webp</image:loc>
+      <image:title>Designing a Patient-Centric Medical Website that Converts</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/patient-retention-strategies-clinics/</loc>
     <lastmod>2026-07-05T14:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/Building%20Long-lasting%20Loyalty.webp</image:loc>
+      <image:title>Patient Retention Strategies: Building Long-lasting Loyalty</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/influencer-marketing-for-healthcare/</loc>
     <lastmod>2026-06-25T11:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/A%20Smart%20Investment%20or%20Money%20Wasted.webp</image:loc>
+      <image:title>Influencer Marketing for Healthcare: A Smart Investment or Money Wasted?</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/managing-clinic-peak-hours/</loc>
     <lastmod>2026-06-15T15:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/Managing%20Clinic%20Peak%20Hours%20Aligning%20Marketing%20with%20Operations.webp</image:loc>
+      <image:title>Managing Clinic Peak Hours: Aligning Marketing with Operations</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/marketing-dietary-supplements-compliance/</loc>
     <lastmod>2026-08-13T10:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/How%20to%20Market%20Dietary%20Supplements%20on%20Social%20Media%20Without%20Getting%20Banned.webp</image:loc>
+      <image:title>How to Market Dietary Supplements on Social Media Without Getting Banned</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/ugc-influencers-for-supplements/</loc>
     <lastmod>2026-08-13T12:30:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/The%20Power%20of%20User-Generated%20Content%20(UGC)%20in%20Selling%20Vitamins.webp</image:loc>
+      <image:title>The Power of User-Generated Content (UGC) in Selling Vitamins &amp; Supplements</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/seo-for-supplement-ecommerce/</loc>
     <lastmod>2026-08-13T15:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/EO%20for%20Supplement%20E-commerce.webp</image:loc>
+      <image:title>SEO for Supplement E-commerce: Ranking on Google for Buying Keywords</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/medestra-vision-cross-continental-sustainability/</loc>
     <lastmod>2025-01-01T00:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/Medestra&apos;s%20Vision.webp</image:loc>
+      <image:title>Medestra&apos;s Vision: Cross-Continental Medical Marketing at the Intersection of Sustainability and Ethics</image:title>
+    </image:image>
   </url>
 </urlset>
