@@ -90,7 +90,7 @@
         }).filter(function (s) {
           return s.slice(0, 2) === 'p='
         })[0].slice(2);
-        if (decoded !== l.pathname) {
+        if (decoded && decoded.startsWith('/') && !decoded.startsWith('//') && decoded !== l.pathname) {
           window.history.replaceState(null, null,
             l.pathname.slice(0, -1) + decoded + l.hash
           );
@@ -349,11 +349,11 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-DeMVUUxd.js"></script>
+  <script type="module" crossorigin src="/assets/index-Ct0t1q1O.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/react-vendor-B-tu2sPP.js">
   <link rel="modulepreload" crossorigin href="/assets/ui-vendor-BW_hpO0l.js">
   <link rel="modulepreload" crossorigin href="/assets/utils-vendor-D1blWMRm.js">
-  <link rel="stylesheet" href="/assets/index-BBz8ZliK.css" />
+  <link rel="stylesheet" href="/assets/index-Bsfnq1No.css" />
   <link rel="stylesheet" href="/assets/index.css" />
 </head>
 
