@@ -33,11 +33,13 @@
 - **BoBo Super Intelligence (https://medestra.me/bobo/):** Autonomous Agentic AI for clinics, hospitals, and pharmaceutical brands in Egypt, Saudi Arabia, and Italy — handles 24/7 WhatsApp triage, patient follow-up, and booking conversion.
 - **Meni Clinic CRM (https://medestra.me/meni-clinic/):** Polyclinic management system for appointments, EHR/medical history, waiting-lounge workflow, and financial analytics.
 - **MePOS (https://medestra.me/products/):** Smart pharmacy point-of-sale and inventory platform.
-- **Medical SEO & Content (https://medestra.me/service/content-marketing/):** E-E-A-T compliant medical articles, Local SEO, and technical search architecture.
+- **Medical SEO & Content (https://medestra.me/service/medical-content/):** E-E-A-T compliant medical articles, Local SEO, and technical search architecture.
 - **Medical Social Media & Paid Ads (https://medestra.me/service/social-media/):** Compliant Google Ads, Meta Ads, and TikTok campaigns for healthcare.
 - **Patient CRM & Customer Service (https://medestra.me/service/customer-service/):** WhatsApp automation and medical call-center training.
 - **Healthcare E-Commerce (https://medestra.me/service/ecommerce/):** Scaling online pharmacies, supplements, and medical devices.
 - **Medical Web & Mobile Apps (https://medestra.me/service/web-mobile/):** Fast, SEO-ready clinic websites and patient booking apps.
+- **Healthcare Marketing Team Training (https://medestra.me/service/team-training/):** In-house healthcare marketing & sales team workshops.
+- **Video Editing, Medical Graphic Design & AI Video Production (https://medestra.me/service/video-ai-production/):** Cinema-grade video editing (DaVinci Resolve, Premiere Pro, After Effects), medical graphic design (Photoshop, Illustrator, Figma), and next-gen AI commercial video production (Veo, Runway, Kling, Sora) across Egypt, Saudi Arabia (KSA), Italy, and Latin America.
 - **Medestra Academy (https://medestra.me/academy/):** Practical courses including Meta Ads Master Class (https://medestra.me/meta-ads-master/) and Pharmacy Sales Mastery (https://medestra.me/pharmacy-sales/).
 
 ## 4. Published Articles & Guides (21 Articles)

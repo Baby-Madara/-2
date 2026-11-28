@@ -37,12 +37,13 @@
 - [MePOS](https://medestra.me/products/): Pharmacy point-of-sale and inventory management system.
 
 ## Core Growth & Digital Marketing Services
-- [Medical SEO & Content Marketing](https://medestra.me/service/content-marketing/): E-E-A-T compliant medical content, Google Maps Local SEO, and technical search optimization.
+- [Medical SEO & Content Marketing](https://medestra.me/service/medical-content/): E-E-A-T compliant medical content, Google Maps Local SEO, and technical search optimization.
 - [Medical Social Media & Paid Ads](https://medestra.me/service/social-media/): Compliant Meta Ads (Facebook, Instagram, WhatsApp), Google Ads, and TikTok campaigns for healthcare.
 - [Patient Customer Service & CRM](https://medestra.me/service/customer-service/): WhatsApp automation, call-center training, and patient retention systems.
 - [Healthcare E-Commerce](https://medestra.me/service/ecommerce/): Growth management for supplement companies, cosmetics brands, online pharmacies, and medical devices.
 - [Medical Web & Mobile Development](https://medestra.me/service/web-mobile/): High-speed, SEO-engineered websites and booking apps for healthcare providers.
-- [Healthcare Marketing Training & Academy](https://medestra.me/academy/): Specialized courses including [Meta Ads Master Class](https://medestra.me/meta-ads-master/) and [Pharmacy Sales Mastery](https://medestra.me/pharmacy-sales/).
+- [Video Editing, Medical Graphic Design & AI Video Production](https://medestra.me/service/video-ai-production/): Cinema-grade video editing (DaVinci Resolve Studio, Premiere Pro, After Effects), medical graphic design (Photoshop, Illustrator, Figma), and next-gen AI commercial video production (Veo, Runway, Kling, Sora) across Egypt, Saudi Arabia (KSA), Italy, and Latin America.
+- [Healthcare Marketing Team Training](https://medestra.me/service/team-training/) & [Medestra Academy](https://medestra.me/academy/): In-house marketing team workshops plus specialized courses including [Meta Ads Master Class](https://medestra.me/meta-ads-master/) and [Pharmacy Sales Mastery](https://medestra.me/pharmacy-sales/).
 
 ## Featured Thought Leadership
 - [The Superintelligence (ASI) Healthcare Revolution](https://medestra.me/blog/how-medestra-builds-superintelligence-systems-for-healthcare/) by Dr. Mahmoud Hussein — How Medestra engineers autonomous medical ecosystems across Egypt, Saudi Arabia, Italy, and Latin America.

@@ -145,36 +145,70 @@
     <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/service-social-media.webp</image:loc>
+      <image:title>Medical Social Media Marketing — Medestra (Egypt, Saudi Arabia, Italy, Latin America)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/service/ecommerce/</loc>
     <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/service-ecommerce.webp</image:loc>
+      <image:title>Medical E-Commerce Management — Medestra (Egypt, Saudi Arabia, Italy, Latin America)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/service/customer-service/</loc>
     <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/service-customer-service.webp</image:loc>
+      <image:title>Medical Customer Service &amp; CRM — Medestra (Egypt, Saudi Arabia, Italy, Latin America)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://medestra.me/service/content-marketing/</loc>
+    <loc>https://medestra.me/service/medical-content/</loc>
     <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/service-medical-content.webp</image:loc>
+      <image:title>Medical Content Marketing &amp; SEO — Medestra (Egypt, Saudi Arabia, Italy, Latin America)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/service/web-mobile/</loc>
     <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/service-web-mobile.webp</image:loc>
+      <image:title>Medical Web &amp; Mobile App Development — Medestra (Egypt, Saudi Arabia, Italy, Latin America)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://medestra.me/service/training/</loc>
+    <loc>https://medestra.me/service/team-training/</loc>
     <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/service-team-training.webp</image:loc>
+      <image:title>Healthcare Marketing Team Training — Medestra (Egypt, Saudi Arabia, Italy, Latin America)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://medestra.me/service/video-ai-production/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://medestra.me/photos/videograph.webp</image:loc>
+      <image:title>Video Editing, Medical Graphic Design &amp; AI Video Production — Medestra (Egypt, Saudi Arabia, Italy, Latin America)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://medestra.me/blog/how-medestra-builds-superintelligence-systems-for-healthcare/</loc>
